@@ -1,0 +1,7 @@
+run
+exit
+run
+run FileTest
+exit
+run FileTest
+exit

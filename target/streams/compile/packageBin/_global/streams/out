@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/nesemulator_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eserebrin[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/eserebrin[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eserebrin/emulator[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/eserebrin/emulator[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eserebrin/emulator/CPU$Instructions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/eserebrin/emulator/CPU$Instructions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eserebrin/emulator/Cartridge.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/eserebrin/emulator/Cartridge.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eserebrin/emulator/Console$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/eserebrin/emulator/Console$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eserebrin/emulator/Console.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/eserebrin/emulator/Console.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eserebrin/emulator/CPU.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/eserebrin/emulator/CPU.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

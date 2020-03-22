@@ -1,0 +1,709 @@
+INFO  started: Metals version 0.8.3 in workspace '/Users/ezraserebrin/Documents/Personal Code/nes-emulator'
+INFO  time: initialize in 0.37s
+WARN  Unsupported sbt version <unknown>
+Mar 21, 2020 3:20:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+WARN  Unsupported sbt version <unknown>
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/CPU.scala
+INFO  no build target: using presentation compiler with only scala-library
+Mar 21, 2020 3:23:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Mar 21, 2020 3:23:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Mar 21, 2020 3:23:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IndexOutOfBoundsException: 1
+java.util.concurrent.CompletionException: java.lang.IndexOutOfBoundsException: 1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:673)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IndexOutOfBoundsException: 1
+	at scala.reflect.internal.util.BatchSourceFile.lineToOffset(SourceFile.scala:188)
+	at scala.meta.internal.pc.AutoImports.autoImportPosition(AutoImports.scala:66)
+	at scala.meta.internal.pc.AutoImports.autoImportPosition$(AutoImports.scala:43)
+	at scala.meta.internal.pc.MetalsGlobal.autoImportPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.importPosition$lzycompute$1(CompletionProvider.scala:67)
+	at scala.meta.internal.pc.CompletionProvider.importPosition$1(CompletionProvider.scala:67)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:140)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670)
+	... 9 more
+
+Mar 21, 2020 3:23:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:408)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:93)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:139)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala
+Mar 21, 2020 3:24:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IndexOutOfBoundsException: 1
+java.util.concurrent.CompletionException: java.lang.IndexOutOfBoundsException: 1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:673)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IndexOutOfBoundsException: 1
+	at scala.reflect.internal.util.BatchSourceFile.lineToOffset(SourceFile.scala:188)
+	at scala.meta.internal.pc.AutoImports.autoImportPosition(AutoImports.scala:66)
+	at scala.meta.internal.pc.AutoImports.autoImportPosition$(AutoImports.scala:43)
+	at scala.meta.internal.pc.MetalsGlobal.autoImportPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.importPosition$lzycompute$1(CompletionProvider.scala:67)
+	at scala.meta.internal.pc.CompletionProvider.importPosition$1(CompletionProvider.scala:67)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:140)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670)
+	... 9 more
+
+Mar 21, 2020 3:24:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:408)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:93)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:139)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Mar 21, 2020 3:24:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 176
+Mar 21, 2020 3:24:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:408)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:93)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:139)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Mar 21, 2020 3:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 335
+WARN  code navigation does not work for the file '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala
+INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/metals14621261365664409/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading settings for project nes-emulator-build from metals.sbt ...
+INFO  [info] Loading project definition from /Users/ezraserebrin/Documents/Personal Code/nes-emulator/project
+INFO  [info] Loading settings for project nes-emulator from build.sbt ...
+INFO  [info] Set current project to NESEmulator (in build file:/Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/)
+INFO  [success] Generated .bloop/nes-emulator.json
+INFO  [success] Generated .bloop/nes-emulator-test.json
+INFO  [success] Total time: 1 s, completed Mar 21, 2020 3:27:04 PM
+INFO  time: ran 'sbt bloopInstall' in 29s
+INFO  build tool exit: 0
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2789498869241815801/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/.bloop/nes-emulator.json'
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/.bloop/nes-emulator-test.json'
+[0m[32m[D][0m Missing analysis file for project 'nes-emulator-test'
+[0m[32m[D][0m Missing analysis file for project 'nes-emulator'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2789498869241815801/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2789498869241815801/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.2s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: indexed workspace in 2.84s
+INFO  compiling nes-emulator (2 scala sources)
+INFO  time: compiled nes-emulator in 2.73s
+INFO  skipping build import with status 'Installed'
+Mar 21, 2020 3:28:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 525
+Mar 21, 2020 3:28:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 527
+Mar 21, 2020 3:28:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 524
+Mar 21, 2020 3:31:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -2
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:265)
+	at scala.reflect.api.Trees$Traverser.$anonfun$traverseTrees$1(Trees.scala:2492)
+	at scala.reflect.api.Trees$Traverser.traverseTrees(Trees.scala:2492)
+	at scala.reflect.internal.Trees.traverseComponents$1(Trees.scala:1272)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1368)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1238)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:265)
+	at scala.reflect.internal.Trees.$anonfun$itraverse$1(Trees.scala:1253)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2515)
+	at scala.reflect.internal.Trees.traverseMemberDef$1(Trees.scala:1241)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1366)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1238)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:265)
+	at scala.reflect.api.Trees$Traverser.$anonfun$traverseStats$2(Trees.scala:2506)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2515)
+	at scala.reflect.api.Trees$Traverser.$anonfun$traverseStats$1(Trees.scala:2506)
+	at scala.reflect.api.Trees$Traverser.traverseStats(Trees.scala:2505)
+	at scala.reflect.internal.Trees.traverseComponents$1(Trees.scala:1270)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1368)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1238)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 2.43s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.81s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.8s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.46s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.75s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.94s
+Mar 21, 2020 3:39:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1512
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 649)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 642)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 643)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 646)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 647)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 647)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 647)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 647)
+Mar 21, 2020 3:39:44 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:415)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 21, 2020 3:39:44 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:415)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 21, 2020 3:39:44 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:415)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 21, 2020 3:39:45 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:415)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:52)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:92)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 21, 2020 3:55:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1708
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 51, 51, 66)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 51, 51, 59)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 51, 51, 60)
+Mar 21, 2020 3:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1750
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 51, 51, 61)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 51, 51, 62)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 51, 51, 62)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 51, 51, 62)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 51, 51, 62)
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.18s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 64)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 57)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 58)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 59)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 60)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 60)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 63)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 61)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala, 49, 49, 60)
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.18s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 83ms
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:4:24: stale bloop error: type mismatch;
+ found   : Int(252)
+ required: Byte
+  var PC = Array[Byte](0xFC, 0xFF)
+                       ^^^^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:4:30: stale bloop error: type mismatch;
+ found   : Int(255)
+ required: Byte
+  var PC = Array[Byte](0xFC, 0xFF)
+                             ^^^^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:4:24: stale bloop error: type mismatch;
+ found   : Int(252)
+ required: Byte
+  var PC = Array[Byte](0xFC, 0xFF)
+                       ^^^^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:4:30: stale bloop error: type mismatch;
+ found   : Int(255)
+ required: Byte
+  var PC = Array[Byte](0xFC, 0xFF)
+                             ^^^^
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.54s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 68ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 55ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.1s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 63ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.51s
+ERROR scalafmt: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:9: error: } expected but end of file found
+
+^
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 91ms
+ERROR scalafmt: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:9: error: } expected but end of file found
+
+^
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.62s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.59s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.6s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.75s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 634, 634, 647)
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.73s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.76s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.18s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:10:5: stale bloop error: value += is not a member of Short
+  Expression does not convert to assignment because:
+    type mismatch;
+     found   : Int
+     required: Short
+    expansion: CPU.this.PC = CPU.this.PC.+(1)
+    PC += 0x0001
+    ^^^^^^^^^^^^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:10:5: stale bloop error: value += is not a member of Short
+  Expression does not convert to assignment because:
+    type mismatch;
+     found   : Int
+     required: Short
+    expansion: CPU.this.PC = CPU.this.PC.+(1)
+    PC += 0x0001
+    ^^^^^^^^^^^^
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.3s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there was one feature warning; re-run with -feature for details
+INFO  time: compiled nes-emulator in 0.77s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.55s
+Mar 21, 2020 4:37:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3204
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.98s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.97s
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/ROMTest.scala
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.54s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.44s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.72s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.16s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.72s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.16s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.17s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.19s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.81s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.11s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.79s
+Mar 21, 2020 5:28:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5234
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.6s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.76s
+Mar 21, 2020 5:48:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5746
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.63s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 93ms
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.11s
+ERROR scalafmt: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:3: error: ) expected but ( found
+class CPU(cf:String, cartridge: Cartridge(cf)) {
+                                         ^
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 75ms
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 633, 633, 646)
+ERROR scalafmt: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:4: error: is not a valid refinement declaration
+  var PC = 0x0000 // eventually: 0xFFFC
+  ^
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.16s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.22s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.89s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Cartridge.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Cartridge.scala, 141, 141, 156)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Cartridge.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Cartridge.scala, 141, 141, 149)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Cartridge.scala in Array[Byte]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Cartridge.scala, 141, 141, 152)
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.86s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.19s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.94s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.76s
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/FileTest.scala
+Mar 21, 2020 6:07:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:408)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:93)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:139)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala, 36, 36, 51)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala, 36, 36, 44)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala, 36, 36, 45)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala, 36, 36, 49)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala, 36, 36, 49)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/test/FileTest.scala, 36, 36, 49)
+Mar 21, 2020 6:09:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:408)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:93)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:139)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Mar 21, 2020 6:10:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6899
+Mar 21, 2020 6:10:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6934
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/FileTest.scala
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/FileTest.scala
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.65s
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/FileTest.scala
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.67s
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/FileTest.scala
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.86s
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/FileTest.scala
