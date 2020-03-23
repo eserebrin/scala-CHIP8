@@ -5,3 +5,6 @@ run FileTest
 exit
 run FileTest
 exit
+run
+run -feature
+exit

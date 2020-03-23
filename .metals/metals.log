@@ -707,3 +707,175 @@ WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emula
 INFO  compiling nes-emulator (1 scala source)
 INFO  time: compiled nes-emulator in 0.86s
 WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/FileTest.scala
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+INFO  started: Metals version 0.8.3 in workspace '/Users/ezraserebrin/Documents/Personal Code/nes-emulator'
+INFO  time: initialize in 0.65s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher7084731407285344593/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher7084731407285344593/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher7084731407285344593/bsp.socket...
+INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.78s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: indexed workspace in 4.89s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 2.18s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.09s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.32s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.09s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.27s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 57ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.18s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.7s
+ERROR scalafmt: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/eserebrin/emulator/CPU.scala:20: error: => expected but . found
+    case 0xEA.toByte => Instructions.NOP
+             ^
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 95ms
+Mar 22, 2020 6:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 620
+Mar 22, 2020 6:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 621
+Mar 22, 2020 6:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 622
+Mar 22, 2020 6:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 623
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.77s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.3s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.75s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 65ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.67s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 2.21s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.67s
+Mar 22, 2020 6:49:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 976
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.83s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.84s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.04s
+Mar 22, 2020 6:56:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1115
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.6s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.63s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.73s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.22s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala in Array[String]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/eserebrin/emulator/Console.scala, 633, 633, 646)
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.12s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.17s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 98ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.16s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.1s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.8s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.82s
+Mar 22, 2020 7:16:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1922
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.92s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.67s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.63s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.65s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.33s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.13s
+Mar 22, 2020 8:59:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2512
+INFO  compiling nes-emulator (3 scala sources)
+INFO  time: compiled nes-emulator in 0.94s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.83s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.97s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.99s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.78s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.73s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.8s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.67s
+Mar 22, 2020 9:14:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3016
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.69s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.84s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.73s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.79s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.72s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.68s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.16s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there was one feature warning; re-run with -feature for details
+INFO  time: compiled nes-emulator in 0.9s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.64s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there was one feature warning; re-run with -feature for details
+INFO  time: compiled nes-emulator in 0.73s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there was one feature warning; re-run with -feature for details
+INFO  time: compiled nes-emulator in 0.79s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there was one feature warning; re-run with -feature for details
+INFO  time: compiled nes-emulator in 0.73s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there was one feature warning; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.26s
