@@ -1,5 +1,5 @@
 {
-    "version": "1.1.2",
+    "version": "1.4.0",
     "project": {
         "name": "nes-emulator",
         "directory": "/Users/ezraserebrin/Documents/Personal Code/nes-emulator",
@@ -194,6 +194,9 @@
                     ]
                 }
             ]
-        }
+        },
+        "tags": [
+            "library"
+        ]
     }
 }

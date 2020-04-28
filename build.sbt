@@ -1,4 +1,4 @@
-name := "NESEmulator"
+name := "Emulator"
 version := "1.0"
 scalaVersion := "2.12.10"
 run / fork := true

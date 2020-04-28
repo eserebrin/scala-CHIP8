@@ -8,3 +8,12 @@ exit
 run
 run -feature
 exit
+run
+git commit
+exit
+run
+exit
+run
+exit 
+run
+exit
