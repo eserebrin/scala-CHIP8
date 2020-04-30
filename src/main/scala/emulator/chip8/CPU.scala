@@ -27,7 +27,7 @@ class CPU(var memory:Array[Char] = Array.fill(0x1000)(0x00)) {
     memory(0x0002) = 0xAA
     memory(0x0003) = 0x55
     memory(0x0004) = 0xD0
-    memory(0x0005) = 0x13 // draw a 4px height sprite at (32,16)
+    memory(0x0005) = 0x14 // draw a 4px height sprite at (32,16)
 
     def processGraphics(g:GraphicsContext): Unit = {
         g.setFill(Color.Black)
@@ -56,6 +56,11 @@ class CPU(var memory:Array[Char] = Array.fill(0x1000)(0x00)) {
 
     def processInstruction(opcode: Char): Unit = opcode match {
 
+        // case goto if (goto >= 0x1000 && goto <= 0x1FFF) => {
+        //     val adr = opcode & 0x0FFF
+
+        // }
+
         case 0x00E0 => gfx = Array.fill(64*32)(false)
 
         case d if (d >= 0xD000 && d <= 0xDFFF) => {
@@ -63,15 +68,14 @@ class CPU(var memory:Array[Char] = Array.fill(0x1000)(0x00)) {
             val y = V((opcode & 0x00F0) >>> 4)
             val n = opcode & 0x000F
             val oldI = I
-            for(w <- 0 until 8; h <- 0 until n) {
-                val spr = memory(I) & (0x10 >>> w)
+            for (h <- 0 until n; w <- 0 until 8) {
+                val spr = intToBool(memory(I) & (0x80 >>> w))
                 val npx = spr ^ gfx(I)
-                println(npx + " " + spr.toBinaryString)
                 val loc = (y - h - 1) * 64 + x + w
                 gfx(loc) = npx
-                if(intToBool(spr) != npx) V(0xF) = 1
+                if (spr != npx) V(0xF) = 1
                 else V(0xF) = 0
-                I += 1
+                if(w == 7) I += 1
             }
             I = oldI
         }
