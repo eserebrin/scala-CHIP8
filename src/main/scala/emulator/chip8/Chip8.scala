@@ -9,7 +9,6 @@ import java.io.BufferedInputStream
 import java.io.FileInputStream
 import java.io.File
 import scala.collection.mutable
-import java.io.DataInputStream
 import scalafx.scene.input.KeyCode
 import scalafx.scene.input.KeyEvent
 
@@ -22,11 +21,15 @@ object Chip8 extends JFXApp {
 			val g = canvas.graphicsContext2D
 
 			var rom = mutable.Buffer[Char]()
-			val instream = new DataInputStream(new BufferedInputStream(new FileInputStream(new File("Pong.ch8"))))
-			while(instream.available > 0) rom += instream.readChar
+			val instream = new BufferedInputStream(new FileInputStream(new File("Pong.ch8")))
+			while(instream.available > 0) rom += instream.read.asInstanceOf[Char]
 
 			var keysPressed = mutable.Set[KeyCode]()
-			canvas.onKeyPressed = (e: KeyEvent) => keysPressed += e.code
+			canvas.onKeyPressed = (e: KeyEvent) => {
+				if(e.code == KeyCode.Space && cpu.debugger) 
+					cpu.processInstruction(cpu.fetchOpcode)
+				keysPressed += e.code
+			}
 			canvas.onKeyReleased = (e: KeyEvent) => keysPressed -= e.code
 
 			val cpu = new CPU(Array.fill[Char](0x200)(0x00) ++ rom ++ Array.fill[Char](0x1000 - rom.size - 0x200)(0x00))
@@ -35,13 +38,11 @@ object Chip8 extends JFXApp {
 			val loop = AnimationTimer(t => {
 				if(t - oldT > 1e9 / 60) {
 					cpu.processInput(keysPressed)
-					// cpu.processInstruction(cpu.fetchOpcode)
+					if(!cpu.debugger) cpu.processInstruction(cpu.fetchOpcode)
 					cpu.processGraphics(g)
-					cpu.decTimers()
+					cpu.processTimers()
 				}
 				oldT = t
-				cpu.resetTimers()
-				println(cpu.delayTimer)
 			})
 
 			loop.start()

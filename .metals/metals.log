@@ -3690,3 +3690,373 @@ INFO  compiling nes-emulator (1 scala source)
 INFO  time: compiled nes-emulator in 0.22s
 INFO  compiling nes-emulator (1 scala source)
 INFO  time: compiled nes-emulator in 1.38s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.18s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.93s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.03s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.38s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.12s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.24s
+May 02, 2020 12:22:43 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 02, 2020 12:22:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+INFO  compiling nes-emulator (2 scala sources)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 2.02s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.26s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.82s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.83s
+May 02, 2020 12:24:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25367
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.9s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.17s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 1.03s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.1s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.13s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.17s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 97ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:151:17: stale bloop error: type mismatch;
+ found   : AnyVal
+ required: Int
+			if(V(x) == V(y)) PC += 1
+                ^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:151:17: stale bloop error: type mismatch;
+ found   : AnyVal
+ required: Int
+			if(V(x) == V(y)) PC += 1
+                ^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:151:17: stale bloop error: type mismatch;
+ found   : AnyVal
+ required: Int
+			if(V(x) == V(y)) PC += 1
+                ^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:151:17: stale bloop error: type mismatch;
+ found   : AnyVal
+ required: Int
+			if(V(x) == V(y)) PC += 1
+                ^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:151:17: stale bloop error: type mismatch;
+ found   : AnyVal
+ required: Int
+			if(V(x) == V(y)) PC += 1
+                ^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:151:17: stale bloop error: type mismatch;
+ found   : AnyVal
+ required: Int
+			if(V(x) == V(y)) PC += 1
+                ^
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.16s
+May 02, 2020 12:37:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26247
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.07s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.07s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.14s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.21s
+May 02, 2020 12:39:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26522
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.23s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.19s
+May 02, 2020 12:42:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26658
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1s
+May 02, 2020 12:44:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26706
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 85ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 80ms
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.08s
+May 02, 2020 12:47:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27058
+May 02, 2020 12:47:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27061
+May 02, 2020 12:47:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27064
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.19s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.07s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.19s
+May 02, 2020 12:55:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27763
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.32s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.18s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.1s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 91ms
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.26s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.23s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.92s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.73s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.27s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.15s
+May 02, 2020 1:09:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28998
+May 02, 2020 1:11:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29239
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 2.01s
+May 02, 2020 1:18:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29728
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.4s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:179:14: stale bloop error: type mismatch;
+ found   : Unit
+ required: Char
+				case _ 	 =>
+             ^^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:179:14: stale bloop error: type mismatch;
+ found   : Unit
+ required: Char
+				case _ 	 =>
+             ^^
+INFO  compiling nes-emulator (1 scala source)
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:179:14: stale bloop error: type mismatch;
+ found   : Unit
+ required: Char
+				case _ 	 =>
+             ^^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:179:17: stale bloop error: empty character literal
+				case _ 	 => ''
+                ^
+INFO  time: compiled nes-emulator in 93ms
+INFO  compiling nes-emulator (1 scala source)
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:179:17: stale bloop error: empty character literal
+				case _ 	 => ''
+                ^
+INFO  time: compiled nes-emulator in 18ms
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:179:17: stale bloop error: empty character literal
+				case _ 	 => ''
+                ^
+INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala:179:17: stale bloop error: empty character literal
+				case _ 	 => ''
+                ^
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.34s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.45s
+May 02, 2020 11:35:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29970
+May 02, 2020 11:36:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29990
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.45s
+INFO  compiling nes-emulator (2 scala sources)
+INFO  time: compiled nes-emulator in 0.32s
+INFO  compiling nes-emulator (2 scala sources)
+INFO  time: compiled nes-emulator in 0.3s
+INFO  compiling nes-emulator (2 scala sources)
+INFO  time: compiled nes-emulator in 0.1s
+INFO  compiling nes-emulator (2 scala sources)
+INFO  time: compiled nes-emulator in 0.3s
+INFO  compiling nes-emulator (2 scala sources)
+INFO  time: compiled nes-emulator in 0.18s
+INFO  compiling nes-emulator (2 scala sources)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.98s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.52s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 2.27s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 2.88s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.25s
+May 02, 2020 11:57:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30607
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.67s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.14s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.16s
+May 02, 2020 11:59:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30891
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.2s
+May 02, 2020 12:00:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31113
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.28s
+May 02, 2020 12:01:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31210
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.26s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.15s
+INFO  compiling nes-emulator (1 scala source)
+INFO  time: compiled nes-emulator in 0.14s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.43s
+May 02, 2020 12:04:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31581
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.26s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.23s
+May 02, 2020 12:06:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31656
+May 02, 2020 12:09:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31702
+May 02, 2020 12:09:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31706
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala, 215, 215, 226)
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.29s
+May 02, 2020 12:11:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31761
+May 02, 2020 12:14:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31786
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.21s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.13s
+May 02, 2020 12:18:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31964
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.29s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.43s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.3s
+INFO  compiling nes-emulator (1 scala source)
+WARN  there were three feature warnings; re-run with -feature for details
+INFO  time: compiled nes-emulator in 1.52s
+May 02, 2020 10:22:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32206
+May 02, 2020 10:25:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 02, 2020 10:25:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 02, 2020 10:25:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 02, 2020 10:26:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 02, 2020 10:26:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 02, 2020 10:35:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 02, 2020 10:35:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+May 02, 2020 10:40:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32914
+May 02, 2020 10:52:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33596
+May 02, 2020 10:54:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33638
+May 02, 2020 10:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33746
+May 02, 2020 11:03:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
