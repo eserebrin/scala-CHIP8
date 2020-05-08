@@ -4060,3 +4060,812 @@ May 02, 2020 10:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 33746
 May 02, 2020 11:03:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+May 03, 2020 8:06:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35491
+May 03, 2020 8:08:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35737
+May 03, 2020 8:08:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35753
+May 03, 2020 8:09:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35800
+May 03, 2020 8:15:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36446
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala, 254, 254, 265)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/CPU.scala, 254, 254, 265)
+May 03, 2020 8:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37564
+May 03, 2020 8:36:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38316
+May 03, 2020 8:36:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38317
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 509, 509, 524)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 509, 509, 520)
+May 03, 2020 8:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39011
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 509, 509, 520)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 504, 504, 512)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 504, 504, 513)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 504, 504, 514)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 504, 504, 515)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 504, 504, 516)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 530, 530, 541)
+May 03, 2020 8:58:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39608
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 171)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 165)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 166)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 167)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 166)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 165)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 164)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 165)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 167)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 167)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 156, 156, 167)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 182, 182, 197)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 182, 182, 190)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 182, 182, 193)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 182, 182, 193)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala, 182, 182, 193)
+INFO  started: Metals version 0.8.4 in workspace '/Users/ezraserebrin/Documents/Personal Code/nes-emulator'
+INFO  time: initialize in 1.44s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2822792431398092085/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/Debugger.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-190-ef7d8dba...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/.bloop/nes-emulator.json'
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/.bloop/nes-emulator-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.10.
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/jansi.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/jline.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-library.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'nes-emulator-test', 'nes-emulator'
+[0m[32m[D][0m Missing analysis file for project 'nes-emulator-test'
+[0m[32m[D][0m Loading previous analysis for 'nes-emulator' from '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2822792431398092085/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2822792431398092085/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 10s
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: imported build in 0.13s
+INFO  time: indexed workspace in 1.91s
+INFO  compiling nes-emulator (6 scala sources)
+INFO  time: compiled nes-emulator in 7.85s
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.05.07 22:07:17 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Personal Code/nes-emulator'
+2020.05.07 22:07:18 INFO  time: initialize in 0.58s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8523573246442411324/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8523573246442411324/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8523573246442411324/bsp.socket...
+2020.05.07 22:07:18 INFO  skipping build import with status 'Installed'
+2020.05.07 22:07:18 INFO  no build target: using presentation compiler with only scala-library
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.07 22:07:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.07 22:07:19 INFO  time: connected to build server in 0.44s
+2020.05.07 22:07:19 INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+2020.05.07 22:07:22 INFO  compiling nes-emulator (6 scala sources)
+2020.05.07 22:07:23 INFO  time: indexed workspace in 3.79s
+2020.05.07 22:07:22 INFO  Deduplicating compilation of nes-emulator from bsp client 'Metals 0.9.0' (since 3.883s)
+2020.05.07 22:07:22 INFO  compiling nes-emulator (6 scala sources)
+2020.05.07 22:07:25 INFO  time: compiled nes-emulator in 2.29s
+2020.05.07 22:08:28 INFO  compiling nes-emulator (6 scala sources)
+2020.05.07 22:08:31 INFO  time: compiled nes-emulator in 3.04s
+2020.05.07 22:09:16 INFO  compiling nes-emulator (6 scala sources)
+2020.05.07 22:09:18 INFO  time: compiled nes-emulator in 1.36s
+2020.05.07 22:12:56 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:12:56 INFO  time: compiled nes-emulator in 0.92s
+2020.05.07 22:12:56 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:12:57 INFO  time: compiled nes-emulator in 0.49s
+2020.05.07 22:13:54 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:13:54 INFO  time: compiled nes-emulator in 0.68s
+2020.05.07 22:14:06 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:14:06 INFO  time: compiled nes-emulator in 0.67s
+2020.05.07 22:14:06 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:14:07 INFO  time: compiled nes-emulator in 0.43s
+2020.05.07 22:14:19 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:14:19 INFO  time: compiled nes-emulator in 0.75s
+2020.05.07 22:14:19 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:14:21 INFO  time: compiled nes-emulator in 0.7s
+2020.05.07 22:14:39 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:14:39 INFO  time: compiled nes-emulator in 0.7s
+2020.05.07 22:15:03 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:15:03 INFO  time: compiled nes-emulator in 0.44s
+2020.05.07 22:17:18 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:17:18 INFO  time: compiled nes-emulator in 0.44s
+May 07, 2020 10:17:39 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:39 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:39 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:40 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:471)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:41 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:471)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:42 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:471)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:42 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:471)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:42 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:471)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:43 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:471)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:43 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:471)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:17:43 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:471)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.05.07 22:18:11 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:18:11 INFO  time: compiled nes-emulator in 0.41s
+2020.05.07 22:18:15 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:18:15 INFO  time: compiled nes-emulator in 0.41s
+2020.05.07 22:18:15 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:18:15 INFO  time: compiled nes-emulator in 0.43s
+May 07, 2020 10:18:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.05.07 22:18:32 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:18:32 INFO  time: compiled nes-emulator in 0.39s
+2020.05.07 22:18:38 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:18:38 INFO  time: compiled nes-emulator in 0.45s
+2020.05.07 22:18:38 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:18:38 INFO  time: compiled nes-emulator in 0.33s
+May 07, 2020 10:19:20 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:24 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:24 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:25 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:25 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:25 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:25 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:26 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:27 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:27 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:27 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 07, 2020 10:19:27 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.05.07 22:19:30 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:19:30 INFO  time: compiled nes-emulator in 0.39s
+2020.05.07 22:20:26 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:20:26 INFO  time: compiled nes-emulator in 0.42s
+May 07, 2020 10:22:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1198
+2020.05.07 22:22:31 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:22:31 INFO  time: compiled nes-emulator in 0.36s
+May 07, 2020 10:22:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1250
+2020.05.07 22:22:36 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:22:36 INFO  time: compiled nes-emulator in 0.36s
+2020.05.07 22:22:36 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:22:36 INFO  time: compiled nes-emulator in 0.3s
+2020.05.07 22:24:20 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:24:20 INFO  time: compiled nes-emulator in 0.37s
+2020.05.07 22:34:59 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:34:59 INFO  time: compiled nes-emulator in 0.29s
+2020.05.07 22:36:17 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:36:17 INFO  time: compiled nes-emulator in 0.29s
+2020.05.07 22:40:42 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:40:42 INFO  time: compiled nes-emulator in 0.32s
+2020.05.07 22:41:32 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:41:32 INFO  time: compiled nes-emulator in 0.28s
+2020.05.07 22:41:56 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:41:56 INFO  time: compiled nes-emulator in 0.28s
+2020.05.07 22:42:01 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:42:01 INFO  time: compiled nes-emulator in 0.4s
+2020.05.07 22:42:01 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:42:01 INFO  time: compiled nes-emulator in 0.22s
+2020.05.07 22:42:19 INFO  compiling nes-emulator (7 scala sources)
+2020.05.07 22:42:25 WARN  there were four feature warnings; re-run with -feature for details
+2020.05.07 22:42:25 INFO  time: compiled nes-emulator in 5.94s
+2020.05.07 22:42:48 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:42:49 INFO  time: compiled nes-emulator in 1.69s
+2020.05.07 22:43:41 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:43:43 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.07 22:43:43 INFO  time: compiled nes-emulator in 1.48s
+2020.05.07 22:43:51 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:43:53 INFO  time: compiled nes-emulator in 1.19s
+2020.05.07 22:43:56 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:43:57 INFO  time: compiled nes-emulator in 1.15s
+2020.05.07 22:52:03 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:52:05 INFO  time: compiled nes-emulator in 2.46s
+2020.05.07 22:52:13 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:52:14 INFO  time: compiled nes-emulator in 1.23s
+2020.05.07 22:52:59 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:53:01 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.07 22:53:01 INFO  time: compiled nes-emulator in 1.67s
+2020.05.07 22:53:13 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:53:16 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.07 22:53:16 INFO  time: compiled nes-emulator in 2.15s
+2020.05.07 22:53:22 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:53:23 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.07 22:53:23 INFO  time: compiled nes-emulator in 1.3s
+2020.05.07 22:53:43 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:53:44 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.07 22:53:44 INFO  time: compiled nes-emulator in 1.59s
+2020.05.07 22:53:51 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:53:52 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.07 22:53:52 INFO  time: compiled nes-emulator in 1.24s
+2020.05.07 22:54:39 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:54:41 INFO  time: compiled nes-emulator in 1.44s
+2020.05.07 22:55:19 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:55:20 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.07 22:55:20 INFO  time: compiled nes-emulator in 1.18s
+May 07, 2020 10:56:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2637
+May 07, 2020 10:56:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2643
+2020.05.07 22:56:46 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:56:48 INFO  time: compiled nes-emulator in 1.2s
+2020.05.07 22:57:07 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:57:08 INFO  time: compiled nes-emulator in 1.08s
+2020.05.07 22:57:56 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:57:58 INFO  time: compiled nes-emulator in 1.29s
+2020.05.07 22:58:49 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 22:58:49 INFO  time: compiled nes-emulator in 0.84s
+2020.05.07 23:03:19 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:03:20 INFO  time: compiled nes-emulator in 1.03s
+2020.05.07 23:05:07 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:05:09 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.07 23:05:09 INFO  time: compiled nes-emulator in 1.63s
+2020.05.07 23:06:55 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:06:55 INFO  time: compiled nes-emulator in 0.9s
+2020.05.07 23:07:04 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:07:04 INFO  time: compiled nes-emulator in 0.85s
+2020.05.07 23:18:35 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:18:37 INFO  time: compiled nes-emulator in 1.1s
+2020.05.07 23:18:42 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:18:43 INFO  time: compiled nes-emulator in 1.32s
+2020.05.07 23:19:32 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:19:32 INFO  time: compiled nes-emulator in 0.9s
+2020.05.07 23:19:55 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:19:55 INFO  time: compiled nes-emulator in 0.87s
+May 07, 2020 11:21:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3662
+2020.05.07 23:22:14 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:22:14 INFO  time: compiled nes-emulator in 0.13s
+2020.05.07 23:22:26 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:22:26 INFO  time: compiled nes-emulator in 0.12s
+2020.05.07 23:22:26 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:22:26 INFO  time: compiled nes-emulator in 64ms
+2020.05.07 23:22:44 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:22:44 INFO  time: compiled nes-emulator in 0.78s
+2020.05.07 23:25:58 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:25:58 INFO  time: compiled nes-emulator in 0.71s
+2020.05.07 23:32:33 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:32:33 INFO  time: compiled nes-emulator in 0.32s
+2020.05.07 23:32:33 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:32:33 INFO  time: compiled nes-emulator in 0.22s
+2020.05.07 23:33:01 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:33:02 INFO  time: compiled nes-emulator in 1.21s
+2020.05.07 23:34:15 INFO  compiling nes-emulator (1 scala source)
+2020.05.07 23:34:16 INFO  time: compiled nes-emulator in 1.57s

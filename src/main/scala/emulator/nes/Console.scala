@@ -22,8 +22,8 @@ package emulator.nes
 // }
 
 object Console {
-  def main(args: Array[String]): Unit = {
-    val cartridge = new Cartridge
-    val cpu = new CPU(cartridge)
-  }
+  // def main(args: Array[String]): Unit = {
+  //   val cartridge = new Cartridge
+  //   val cpu = new CPU(cartridge)
+  // }
 }

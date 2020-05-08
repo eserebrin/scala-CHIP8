@@ -15,7 +15,7 @@ import scalafx.scene.input.KeyEvent
 object Chip8 extends JFXApp {
 	stage = new JFXApp.PrimaryStage {
 		title = "CHIP-8"
-		scene = new Scene(64*8,32*8) {
+		scene = new Scene(64*12,32*12+100) {
 			val canvas = new Canvas(width.value, height.value)
 			content = canvas
 			val g = canvas.graphicsContext2D
@@ -26,19 +26,21 @@ object Chip8 extends JFXApp {
 
 			var keysPressed = mutable.Set[KeyCode]()
 			canvas.onKeyPressed = (e: KeyEvent) => {
-				if(e.code == KeyCode.Space && cpu.debugger) 
+				if(e.code == KeyCode.Space && Debugger.enabled) 
 					cpu.processInstruction(cpu.fetchOpcode)
 				keysPressed += e.code
 			}
 			canvas.onKeyReleased = (e: KeyEvent) => keysPressed -= e.code
 
-			val cpu = new CPU(Array.fill[Char](0x200)(0x00) ++ rom ++ Array.fill[Char](0x1000 - rom.size - 0x200)(0x00))
+			val cpu = new CPU
+			cpu.memory = Array.fill[Char](0x200)(0x00) ++ rom ++ Array.fill[Char](0x1000 - rom.size - 0x200)(0x00)
 
 			var oldT = 0L
 			val loop = AnimationTimer(t => {
 				if(t - oldT > 1e9 / 60) {
 					cpu.processInput(keysPressed)
-					if(!cpu.debugger) cpu.processInstruction(cpu.fetchOpcode)
+					if(!Debugger.enabled) cpu.processInstruction(cpu.fetchOpcode)
+					Debugger.display(g)
 					cpu.processGraphics(g)
 					cpu.processTimers()
 				}

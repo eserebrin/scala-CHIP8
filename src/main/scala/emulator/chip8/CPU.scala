@@ -5,10 +5,9 @@ import scalafx.scene.paint.Color
 import scala.util.Random
 import scala.collection.mutable
 import scalafx.scene.input.KeyCode
+import scalafx.scene.text.Font
 
-class CPU(private var memory:Array[Char] = Array.fill(0x1000)(0x00)) {
-
-	var debugger = true // set to true to use spacebar to step one clock cycle
+class CPU extends Hardware {
 
 	implicit def chToInt(ch:Char): Int = ch.toInt
 	implicit def intToCh(int:Int): Char = int.toChar
@@ -17,68 +16,16 @@ class CPU(private var memory:Array[Char] = Array.fill(0x1000)(0x00)) {
 		else true
 	}
 
-	private var V = Array.fill[Char](16)(0x00)
-	private var I:Char = 0x000
-	private var PC:Char = 0x200
-	private var soundTimer = 60
-	private var delayTimer = 60
-	private var keys = Array.fill[Boolean](16)(false)
-	private var gfx = Array.fill(64*32)(false)
-	private object Stack {
-		private var arr = Array.fill[Char](16)(0x0000)
-		private var sp = 0
-
-		def push(adr: Char): Unit = {
-			sp += 1
-			arr(sp) = adr
-		}
-
-		def pop(): Char = {
-			var ret = arr(sp)
-			sp -= 1
-			ret
-		}
-	}
-
-	// *** BEGIN TESTING CODE *** 
-
-	// V(0) = 32
-	// V(1) = 16
-	// memory(0x000) = 0xAA
-	// memory(0x001) = 0x55
-	// memory(0x002) = 0xAA
-	// memory(0x003) = 0x55
-	// memory(0x004) = 0xD0
-	// memory(0x005) = 0x14 // draw a 4px height sprite at (32,16)
-
-	// memory(0x000) = 0x14
-	// memory(0x001) = 0x44 // jump to adress 0x444
-
-	// memory(0x000) = 0x24
-	// memory(0x001) = 0x44 // call subroutine at adress 0x444
-	// memory(0x500) = 0x00
-	// memory(0x501) = 0xEE // return
-
-	// memory(0x000) = 0x60
-	// memory(0x001) = 0x77 // store 0x77 to V(0)
-	// memory(0x002) = 0x70
-	// memory(0x003) = 0x01 // add one to V(0)
-	// memory(0x004) = 0x61
-	// memory(0x005) = 0x88 // store 0x88 to V(1)
-	// memory(0x006) = 0x4
-
-	// *** END OF TESTING CODE *** 
-
-	def processGraphics(g:GraphicsContext): Unit = {
+	def processGraphics(g: GraphicsContext): Unit = {
 		g.setFill(Color.Black)
-		g.fillRect(0,0,64*8,32*8)
+		g.fillRect(0,0,64*12,32*12)
 		var x = 0
 		var y = 0
 		for (i <- 0 until gfx.size) {
 			x = i % 64
 			y = i / 64
 			g.setFill(Color.White)
-			if(gfx(i)) g.fillRect(x*8, y*8, 8, 8)
+			if(gfx(i)) g.fillRect(x*12, y*12, 12, 12)
 		}
 	}
 
@@ -121,13 +68,7 @@ class CPU(private var memory:Array[Char] = Array.fill(0x1000)(0x00)) {
 		var hb = 0x0000
 		var lb = 0x0000
 		for(i <- 1 to 2) {
-
-			print(PC.toHexString.toUpperCase + "  " + memory(PC).toHexString.toUpperCase)
-			print("  |  ")
-			for(i <- 0 until V.size) print("V" + i.toHexString.toUpperCase + ":" + V(i).toHexString.toUpperCase + " ")
-			println(" |  I: " + I.toHexString.toUpperCase)
-			println
-
+			Debugger.run()
 			if(i == 1) hb = memory(PC) << 8
 			else lb = memory(PC)
 			if(PC < 0x999) PC += 1
@@ -196,7 +137,7 @@ class CPU(private var memory:Array[Char] = Array.fill(0x1000)(0x00)) {
 		case rand if (opcode >= 0xC000 & opcode <= 0xCFFF) => {
 			val x = (opcode & 0x0F00) >>> 8
 			val n = opcode & 0x00FF
-			V(x) & Random.nextInt((0 - 255) + 1)
+			V(x) & Random.nextInt(255)
 		}
 
 		case dispSpr if (opcode >= 0xD000 && opcode <= 0xDFFF) => {
