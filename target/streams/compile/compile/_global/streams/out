@@ -1,2 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0mthere were three feature warnings; re-run with -feature for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/Hardware.scala:86:57: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m			println((memory(PC-1) << 8) & memory(PC)).toHexString)[0m
+[0m[[0m[31merror[0m] [0m[0m			                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

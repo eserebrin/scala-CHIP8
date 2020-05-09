@@ -26,7 +26,7 @@ object Chip8 extends JFXApp {
 
 			var keysPressed = mutable.Set[KeyCode]()
 			canvas.onKeyPressed = (e: KeyEvent) => {
-				if(e.code == KeyCode.Space && Debugger.enabled) 
+				if(e.code == KeyCode.Space && cpu.Debugger.enabled) 
 					cpu.processInstruction(cpu.fetchOpcode)
 				keysPressed += e.code
 			}
@@ -39,8 +39,8 @@ object Chip8 extends JFXApp {
 			val loop = AnimationTimer(t => {
 				if(t - oldT > 1e9 / 60) {
 					cpu.processInput(keysPressed)
-					if(!Debugger.enabled) cpu.processInstruction(cpu.fetchOpcode)
-					Debugger.display(g)
+					if(!cpu.Debugger.enabled) cpu.processInstruction(cpu.fetchOpcode)
+					cpu.Debugger.display(g)
 					cpu.processGraphics(g)
 					cpu.processTimers()
 				}

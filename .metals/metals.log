@@ -4869,3 +4869,424 @@ WARNING: Unmatched cancel notification for request id 3662
 2020.05.07 23:33:02 INFO  time: compiled nes-emulator in 1.21s
 2020.05.07 23:34:15 INFO  compiling nes-emulator (1 scala source)
 2020.05.07 23:34:16 INFO  time: compiled nes-emulator in 1.57s
+2020.05.07 23:34:57 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+2020.05.08 20:28:49 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Personal Code/nes-emulator'
+2020.05.08 20:28:50 INFO  time: initialize in 0.43s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8053909060367497383/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.05.08 20:28:51 INFO  skipping build import with status 'Installed'
+2020.05.08 20:28:51 INFO  no build target: using presentation compiler with only scala-library
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8053909060367497383/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8053909060367497383/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.08 20:28:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.08 20:28:51 INFO  time: connected to build server in 0.63s
+2020.05.08 20:28:51 INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+2020.05.08 20:28:51 INFO  time: imported build in 0.12s
+2020.05.08 20:28:56 INFO  time: indexed workspace in 4.8s
+2020.05.08 20:30:22 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:30:22 INFO  time: compiled nes-emulator in 0.46s
+2020.05.08 20:30:34 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:30:34 INFO  time: compiled nes-emulator in 0.21s
+2020.05.08 20:30:34 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:30:34 INFO  time: compiled nes-emulator in 50ms
+2020.05.08 20:31:18 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:31:18 INFO  time: compiled nes-emulator in 0.22s
+2020.05.08 20:31:19 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:31:19 INFO  time: compiled nes-emulator in 0.53s
+2020.05.08 20:32:00 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:32:00 INFO  time: compiled nes-emulator in 0.2s
+2020.05.08 20:32:13 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:32:13 INFO  time: compiled nes-emulator in 0.71s
+2020.05.08 20:32:13 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:32:14 INFO  time: compiled nes-emulator in 0.35s
+2020.05.08 20:32:23 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:32:23 INFO  time: compiled nes-emulator in 0.34s
+2020.05.08 20:32:23 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:32:23 INFO  time: compiled nes-emulator in 0.34s
+2020.05.08 20:32:30 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:32:30 INFO  time: compiled nes-emulator in 0.28s
+2020.05.08 20:32:30 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:32:30 INFO  time: compiled nes-emulator in 0.18s
+2020.05.08 20:33:14 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:33:14 INFO  time: compiled nes-emulator in 0.26s
+2020.05.08 20:33:23 INFO  compiling nes-emulator (6 scala sources)
+2020.05.08 20:33:26 WARN  there were four feature warnings; re-run with -feature for details
+2020.05.08 20:33:26 INFO  time: compiled nes-emulator in 2.6s
+2020.05.08 20:34:03 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:34:05 INFO  time: compiled nes-emulator in 1.12s
+2020.05.08 20:36:38 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:36:38 INFO  time: compiled nes-emulator in 0.94s
+2020.05.08 20:37:23 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:37:25 INFO  time: compiled nes-emulator in 1.4s
+2020.05.08 20:39:11 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:39:12 INFO  time: compiled nes-emulator in 1.06s
+2020.05.08 20:41:52 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:41:52 INFO  time: compiled nes-emulator in 1s
+May 08, 2020 8:48:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 08, 2020 8:48:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+2020.05.08 20:48:47 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:48:47 INFO  time: compiled nes-emulator in 0.88s
+2020.05.08 20:49:08 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:49:09 INFO  time: compiled nes-emulator in 1.15s
+2020.05.08 20:50:23 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:50:24 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.08 20:50:24 INFO  time: compiled nes-emulator in 1.31s
+2020.05.08 20:50:46 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:50:47 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.08 20:50:47 INFO  time: compiled nes-emulator in 1.26s
+2020.05.08 20:51:52 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:51:53 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.08 20:51:53 INFO  time: compiled nes-emulator in 1.55s
+2020.05.08 20:52:18 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:52:18 INFO  time: compiled nes-emulator in 0.83s
+2020.05.08 20:54:49 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:54:49 INFO  time: compiled nes-emulator in 0.15s
+2020.05.08 20:54:57 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:54:57 INFO  time: compiled nes-emulator in 0.16s
+2020.05.08 20:54:57 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:54:57 INFO  time: compiled nes-emulator in 66ms
+2020.05.08 20:55:05 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:55:06 INFO  time: compiled nes-emulator in 1.21s
+2020.05.08 20:59:20 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:59:20 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 20:59:46 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 20:59:46 INFO  time: compiled nes-emulator in 0.83s
+2020.05.08 21:03:03 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:03:04 INFO  time: compiled nes-emulator in 1.11s
+May 08, 2020 9:05:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1780
+May 08, 2020 9:05:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1779
+May 08, 2020 9:05:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1782
+2020.05.08 21:06:11 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:06:11 INFO  time: compiled nes-emulator in 0.13s
+2020.05.08 21:07:53 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:07:53 INFO  time: compiled nes-emulator in 0.76s
+May 08, 2020 9:08:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2235
+2020.05.08 21:08:10 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:08:10 INFO  time: compiled nes-emulator in 0.88s
+2020.05.08 21:08:49 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:08:49 INFO  time: compiled nes-emulator in 0.98s
+2020.05.08 21:09:13 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:09:13 INFO  time: compiled nes-emulator in 0.93s
+2020.05.08 21:09:25 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:09:26 INFO  time: compiled nes-emulator in 1.06s
+2020.05.08 21:10:00 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:10:00 INFO  time: compiled nes-emulator in 0.95s
+2020.05.08 21:10:09 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:10:09 INFO  time: compiled nes-emulator in 0.88s
+May 08, 2020 9:10:29 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.05.08 21:10:42 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:10:42 INFO  time: compiled nes-emulator in 0.18s
+2020.05.08 21:10:50 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:10:50 INFO  time: compiled nes-emulator in 0.22s
+2020.05.08 21:10:50 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:10:50 INFO  time: compiled nes-emulator in 63ms
+2020.05.08 21:13:23 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:13:23 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 21:13:58 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:13:58 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 21:14:15 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:14:15 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 21:14:15 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:14:15 INFO  time: compiled nes-emulator in 59ms
+2020.05.08 21:14:29 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:14:29 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 21:14:29 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:14:29 INFO  time: compiled nes-emulator in 24ms
+2020.05.08 21:14:54 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:14:54 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 21:16:01 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:16:01 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 21:16:57 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:16:57 INFO  time: compiled nes-emulator in 0.13s
+2020.05.08 21:17:12 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:17:12 INFO  time: compiled nes-emulator in 0.16s
+2020.05.08 21:17:12 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:17:12 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 21:17:47 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:17:47 INFO  time: compiled nes-emulator in 0.15s
+2020.05.08 21:18:35 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:18:35 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 21:19:22 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:19:22 INFO  time: compiled nes-emulator in 0.86s
+2020.05.08 21:19:41 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:19:41 INFO  time: compiled nes-emulator in 0.8s
+2020.05.08 21:20:45 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:20:47 INFO  time: compiled nes-emulator in 1.66s
+2020.05.08 21:21:35 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:21:36 INFO  time: compiled nes-emulator in 1.23s
+2020.05.08 21:22:02 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:22:02 INFO  time: compiled nes-emulator in 0.95s
+2020.05.08 21:22:21 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:22:21 INFO  time: compiled nes-emulator in 0.95s
+2020.05.08 21:24:11 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:24:11 INFO  time: compiled nes-emulator in 0.91s
+2020.05.08 21:24:43 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:24:43 INFO  time: compiled nes-emulator in 0.79s
+2020.05.08 21:30:41 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:30:42 INFO  time: compiled nes-emulator in 1.09s
+May 08, 2020 9:31:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3710
+2020.05.08 21:32:02 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:32:03 INFO  time: compiled nes-emulator in 1.03s
+2020.05.08 21:32:28 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:32:29 INFO  time: compiled nes-emulator in 1.17s
+2020.05.08 21:33:05 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:33:05 INFO  time: compiled nes-emulator in 0.13s
+2020.05.08 21:33:14 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:33:14 INFO  time: compiled nes-emulator in 92ms
+2020.05.08 21:33:14 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:33:14 INFO  time: compiled nes-emulator in 23ms
+2020.05.08 21:33:30 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:33:30 INFO  time: compiled nes-emulator in 0.92s
+2020.05.08 21:33:52 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:33:52 INFO  time: compiled nes-emulator in 0.96s
+2020.05.08 21:34:00 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:34:01 INFO  time: compiled nes-emulator in 1.24s
+2020.05.08 21:34:55 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:34:56 INFO  time: compiled nes-emulator in 1.03s
+May 08, 2020 9:35:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4336
+2020.05.08 21:35:28 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:35:28 INFO  time: compiled nes-emulator in 0.93s
+2020.05.08 21:36:39 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:36:40 INFO  time: compiled nes-emulator in 1.07s
+2020.05.08 21:39:33 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:39:34 INFO  time: compiled nes-emulator in 1.03s
+2020.05.08 21:39:47 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:39:48 INFO  time: compiled nes-emulator in 1s
+2020.05.08 21:40:24 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:40:25 INFO  time: compiled nes-emulator in 1.17s
+2020.05.08 21:40:33 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:40:34 INFO  time: compiled nes-emulator in 1.01s
+2020.05.08 21:40:59 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:41:00 INFO  time: compiled nes-emulator in 1.15s
+2020.05.08 21:41:35 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:41:36 INFO  time: compiled nes-emulator in 1.11s
+2020.05.08 21:41:43 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:41:44 INFO  time: compiled nes-emulator in 1.15s
+2020.05.08 21:42:14 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:42:15 INFO  time: compiled nes-emulator in 1.19s
+2020.05.08 21:42:27 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:42:28 INFO  time: compiled nes-emulator in 1.14s
+2020.05.08 21:43:32 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:43:33 INFO  time: compiled nes-emulator in 1.14s
+2020.05.08 21:43:42 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:43:43 INFO  time: compiled nes-emulator in 1.07s
+2020.05.08 21:44:11 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:44:12 INFO  time: compiled nes-emulator in 1.06s
+2020.05.08 21:46:43 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:46:43 INFO  time: compiled nes-emulator in 0.97s
+2020.05.08 21:46:59 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:47:01 INFO  time: compiled nes-emulator in 1.29s
+2020.05.08 21:49:24 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:49:24 INFO  time: compiled nes-emulator in 0.97s
+May 08, 2020 9:49:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4898
+2020.05.08 21:53:23 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:53:24 INFO  time: compiled nes-emulator in 1.56s
+2020.05.08 21:54:51 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:54:53 INFO  time: compiled nes-emulator in 1.59s
+2020.05.08 21:55:04 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:55:05 INFO  time: compiled nes-emulator in 1.17s
+2020.05.08 21:56:11 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:56:11 INFO  time: compiled nes-emulator in 0.86s
+2020.05.08 21:56:13 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:56:14 INFO  time: compiled nes-emulator in 1.04s
+May 08, 2020 9:56:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5090
+2020.05.08 21:57:02 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:57:02 INFO  time: compiled nes-emulator in 0.17s
+2020.05.08 21:58:44 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:58:44 INFO  time: compiled nes-emulator in 0.15s
+2020.05.08 21:59:16 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:59:16 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 21:59:42 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 21:59:42 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 22:00:40 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:00:40 INFO  time: compiled nes-emulator in 0.1s
+2020.05.08 22:01:09 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:01:09 INFO  time: compiled nes-emulator in 0.86s
+2020.05.08 22:01:59 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:01:59 INFO  time: compiled nes-emulator in 0.15s
+2020.05.08 22:02:08 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:02:08 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 22:02:08 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:02:08 INFO  time: compiled nes-emulator in 84ms
+2020.05.08 22:02:34 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:02:34 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 22:02:52 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:02:52 INFO  time: compiled nes-emulator in 0.16s
+2020.05.08 22:02:52 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:02:52 INFO  time: compiled nes-emulator in 51ms
+2020.05.08 22:02:57 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:02:57 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 22:02:57 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:02:57 INFO  time: compiled nes-emulator in 62ms
+2020.05.08 22:03:13 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:03:15 INFO  time: compiled nes-emulator in 1.18s
+2020.05.08 22:03:47 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:03:47 INFO  time: compiled nes-emulator in 0.91s
+2020.05.08 22:04:23 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:04:24 INFO  time: compiled nes-emulator in 1.11s
+2020.05.08 22:05:32 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:05:32 INFO  time: compiled nes-emulator in 0.95s
+2020.05.08 22:05:54 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:05:54 INFO  time: compiled nes-emulator in 0.97s
+May 08, 2020 10:06:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6113
+2020.05.08 22:06:42 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:06:44 INFO  time: compiled nes-emulator in 1.36s
+May 08, 2020 10:07:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6157
+2020.05.08 22:10:51 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:10:52 INFO  time: compiled nes-emulator in 1.17s
+2020.05.08 22:10:56 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:10:56 INFO  time: compiled nes-emulator in 0.99s
+2020.05.08 22:11:18 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:11:18 INFO  time: compiled nes-emulator in 0.96s
+2020.05.08 22:12:09 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:12:11 INFO  time: compiled nes-emulator in 1.15s
+2020.05.08 22:12:25 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:12:26 INFO  time: compiled nes-emulator in 1.01s
+2020.05.08 22:12:48 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:12:49 INFO  time: compiled nes-emulator in 1.11s
+2020.05.08 22:13:12 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:13:14 INFO  time: compiled nes-emulator in 1.19s
+2020.05.08 22:15:09 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:15:09 INFO  time: compiled nes-emulator in 0.92s
+May 08, 2020 10:16:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6397
+2020.05.08 22:16:47 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:16:47 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 22:17:14 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:17:14 INFO  time: compiled nes-emulator in 0.13s
+2020.05.08 22:17:37 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:17:37 INFO  time: compiled nes-emulator in 0.13s
+May 08, 2020 10:17:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6579
+2020.05.08 22:17:42 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:17:42 INFO  time: compiled nes-emulator in 0.15s
+2020.05.08 22:17:42 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:17:42 INFO  time: compiled nes-emulator in 53ms
+2020.05.08 22:18:10 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:18:10 INFO  time: compiled nes-emulator in 0.12s
+2020.05.08 22:18:24 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:18:24 INFO  time: compiled nes-emulator in 0.15s
+2020.05.08 22:18:24 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:18:24 INFO  time: compiled nes-emulator in 92ms
+2020.05.08 22:18:28 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:18:28 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 22:18:34 INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/Hardware.scala:94:15: stale bloop error: not found: value vars
+			g.fillText(vars, 10, screenHeight+60)
+              ^^^^
+2020.05.08 22:18:34 INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/Hardware.scala:94:15: stale bloop error: not found: value vars
+			g.fillText(vars, 10, screenHeight+60)
+              ^^^^
+2020.05.08 22:18:36 INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/Hardware.scala:94:15: stale bloop error: not found: value vars
+			g.fillText(vars, 10, screenHeight+60)
+              ^^^^
+2020.05.08 22:18:36 INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/Hardware.scala:94:15: stale bloop error: not found: value vars
+			g.fillText(vars, 10, screenHeight+60)
+              ^^^^
+2020.05.08 22:18:43 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:18:43 INFO  time: compiled nes-emulator in 0.13s
+2020.05.08 22:18:59 INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/Hardware.scala:94:15: stale bloop error: not found: value vars
+			g.fillText(vars, 10, screenHeight+60)
+              ^^^^
+2020.05.08 22:18:59 INFO  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/main/scala/emulator/chip8/Hardware.scala:94:15: stale bloop error: not found: value vars
+			g.fillText(vars, 10, screenHeight+60)
+              ^^^^
+2020.05.08 22:19:01 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:19:01 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 22:19:20 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:19:20 INFO  time: compiled nes-emulator in 0.91s
+2020.05.08 22:19:44 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:19:44 INFO  time: compiled nes-emulator in 0.93s
+2020.05.08 22:19:58 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:19:59 INFO  time: compiled nes-emulator in 1.06s
+2020.05.08 22:23:57 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:23:57 INFO  time: compiled nes-emulator in 0.15s
+2020.05.08 22:24:34 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:24:34 INFO  time: compiled nes-emulator in 0.98s
+2020.05.08 22:29:40 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:29:42 INFO  time: compiled nes-emulator in 1.04s
+2020.05.08 22:30:04 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:30:05 INFO  time: compiled nes-emulator in 1s
+2020.05.08 22:31:47 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:31:47 INFO  time: compiled nes-emulator in 89ms
+2020.05.08 22:32:39 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:32:39 INFO  time: compiled nes-emulator in 0.87s
+2020.05.08 22:33:21 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:33:21 INFO  time: compiled nes-emulator in 0.9s
+2020.05.08 22:35:07 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:35:07 INFO  time: compiled nes-emulator in 0.98s
+2020.05.08 22:36:53 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:36:54 INFO  time: compiled nes-emulator in 1.05s
+2020.05.08 22:37:29 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:37:30 INFO  time: compiled nes-emulator in 1.19s
+2020.05.08 22:38:28 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:38:29 INFO  time: compiled nes-emulator in 1.55s
+2020.05.08 22:38:39 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:38:41 INFO  time: compiled nes-emulator in 1.8s
+2020.05.08 22:38:53 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:38:53 INFO  time: compiled nes-emulator in 0.95s
+2020.05.08 22:39:03 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:39:04 INFO  time: compiled nes-emulator in 1.08s
+2020.05.08 22:40:01 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:40:01 INFO  time: compiled nes-emulator in 0.89s
+2020.05.08 22:42:17 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:42:17 INFO  time: compiled nes-emulator in 0.14s
+2020.05.08 22:42:32 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:42:32 INFO  time: compiled nes-emulator in 0.95s
+2020.05.08 22:43:10 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:43:10 INFO  time: compiled nes-emulator in 0.95s
+2020.05.08 22:43:38 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:43:38 INFO  time: compiled nes-emulator in 0.96s
+2020.05.08 22:45:56 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:45:57 INFO  time: compiled nes-emulator in 1.16s
+2020.05.08 22:46:37 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:46:38 INFO  time: compiled nes-emulator in 1.04s
+May 08, 2020 10:47:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8338
+2020.05.08 22:47:36 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:47:36 INFO  time: compiled nes-emulator in 0.85s
+2020.05.08 22:48:42 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:48:42 INFO  time: compiled nes-emulator in 0.94s
+2020.05.08 22:48:59 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:49:00 INFO  time: compiled nes-emulator in 1.06s
+2020.05.08 22:49:15 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:49:16 INFO  time: compiled nes-emulator in 1.09s
+2020.05.08 22:49:30 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:49:30 INFO  time: compiled nes-emulator in 0.94s
+2020.05.08 22:50:02 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:50:02 INFO  time: compiled nes-emulator in 0.98s
+2020.05.08 22:50:20 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:50:21 INFO  time: compiled nes-emulator in 1.08s
+2020.05.08 22:50:48 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:50:48 INFO  time: compiled nes-emulator in 0.98s
+2020.05.08 22:51:29 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:51:29 INFO  time: compiled nes-emulator in 0.92s
+2020.05.08 22:52:12 INFO  compiling nes-emulator (1 scala source)
+2020.05.08 22:52:12 INFO  time: compiled nes-emulator in 0.99s

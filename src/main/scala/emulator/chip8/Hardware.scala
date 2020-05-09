@@ -1,5 +1,9 @@
 package emulator.chip8
 
+import scalafx.scene.canvas.GraphicsContext
+import scalafx.scene.paint.Color
+import scalafx.scene.text.Font
+
 abstract class Hardware {
 
 	// *** BEGIN TESTING CODE *** 
@@ -52,6 +56,72 @@ abstract class Hardware {
 			sp -= 1
 			ret
 		}
-    }
+		def peek(): Char = arr(sp)
+	}
+	
+	object Debugger {
+
+		var enabled = false
+
+		private var instruction = ""
+		private var vkeys = ""
+		private var vvals = ""
+		private var output = ""
+		private var index = ""
+		private var stkP = ""
+		private var delay = ""
+		private var sound = ""
+
+		def formatHex8(in: Char): String = {
+			val h = in.toHexString.toUpperCase
+			if(h.length == 1) "0" + h
+			else h
+		}
+
+		def formatHex16(in: Char): String = {
+			val h = in.toHexString.toUpperCase
+			if(h.length == 1) "000" + h
+			else if(h.length == 2) "00" + h
+			else if(h.length == 3) "0" + h
+			else h
+		}
+	
+		def display(g: GraphicsContext): Unit = {
+			val screenWidth = 64*12
+			val screenHeight = 32*12
+
+			g.setFill(Color.Gray)
+			g.fillRect(0,screenHeight,screenWidth,100)
+
+			g.setFill(Color.Blue)
+			g.setFont(new Font("Courier", 24))
+			g.fillText(instruction, 10, screenHeight+30)
+
+			g.setFont(new Font("Courier", 16))
+			g.fillText(vkeys, 10, screenHeight+70)
+			g.fillText(vvals, 10, screenHeight+85)
+
+			g.setFont(new Font("Courier", 18))
+			g.fillText(index, 500, screenHeight+80)
+
+			g.fillText(stkP, 500, screenHeight+60)
+
+			g.fillText(delay, 620, screenHeight+60)
+			g.fillText(sound, 620, screenHeight+80)
+		}
+
+		def run(): Unit = {
+			instruction = formatHex16((PC-1).toChar) + "-" + formatHex16(PC) + ": " + formatHex8(memory(PC-1)) + formatHex8(memory(PC))
+			vkeys = ""
+			vvals = ""
+			for(i <- 0 until V.size) vkeys += "V" + i.toHexString.toUpperCase + " "
+			for(i <- 0 until V.size) vvals += formatHex8(V(i)) + " "
+			index = " I: " + formatHex16(I)
+			stkP = "SP: " + formatHex16(Stack.peek)
+			delay = "DELAY:" + delayTimer
+			sound = "SOUND:" + soundTimer
+		}
+
+	}
 
 }
