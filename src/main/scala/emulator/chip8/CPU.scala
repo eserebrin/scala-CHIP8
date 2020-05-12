@@ -8,7 +8,7 @@ import scalafx.scene.input.KeyCode
 import scalafx.scene.text.Font
 
 class CPU extends Hardware {
-
+	
 	implicit def chToInt(ch:Char): Int = ch.toInt
 	implicit def intToCh(int:Int): Char = int.toChar
 	implicit def intToBool(int:Int): Boolean = {
@@ -32,22 +32,22 @@ class CPU extends Hardware {
 	def processInput(keysPressed: mutable.Set[KeyCode]): Unit = {
 		for (key <- keysPressed) {
 			key match {
-				case KeyCode.Digit0 => keys(0x0) = true
-				case KeyCode.Digit1 => keys(0x1) = true
-				case KeyCode.Digit2 => keys(0x2) = true
-				case KeyCode.Digit3 => keys(0x3) = true
-				case KeyCode.Digit4 => keys(0x4) = true
-				case KeyCode.Digit5 => keys(0x5) = true
-				case KeyCode.Digit6 => keys(0x6) = true
-				case KeyCode.Digit7 => keys(0x7) = true
-				case KeyCode.Digit8 => keys(0x8) = true
-				case KeyCode.Digit9 => keys(0x9) = true
-				case KeyCode.A		=> keys(0xA) = true
-				case KeyCode.B		=> keys(0xB) = true
-				case KeyCode.C		=> keys(0xC) = true
-				case KeyCode.D		=> keys(0xD) = true
-				case KeyCode.E		=> keys(0xE) = true
-				case KeyCode.F		=> keys(0xF) = true
+				case KeyCode.Digit1	=> keys(0x1) = true
+				case KeyCode.Digit2	=> keys(0x2) = true
+				case KeyCode.Digit3	=> keys(0x3) = true
+				case KeyCode.Digit4	=> keys(0xC) = true
+				case KeyCode.Q		=> keys(0x4) = true
+				case KeyCode.W		=> keys(0x5) = true
+				case KeyCode.E		=> keys(0x6) = true
+				case KeyCode.R		=> keys(0xD) = true
+				case KeyCode.A		=> keys(0x7) = true
+				case KeyCode.S		=> keys(0x8) = true
+				case KeyCode.D		=> keys(0x9) = true
+				case KeyCode.F		=> keys(0xE) = true
+				case KeyCode.Z		=> keys(0xA) = true
+				case KeyCode.X		=> keys(0x0) = true
+				case KeyCode.C		=> keys(0xB) = true
+				case KeyCode.V		=> keys(0xF) = true
 				case _ =>
 			}
 		}
@@ -99,7 +99,10 @@ class CPU extends Hardware {
 				case 0x4 => if(V(x) != n) PC += 2
 				case 0x5 => if(V(x) == V(y)) PC += 2
 				case 0x6 => V(x) = n 
-				case 0x7 => V(x) += n
+				case 0x7 => {
+					V(x) += n 
+					if(V(x) > 0xFF) V(x) = V(x) & 0xFF
+				}
 				case _ 	 =>
 			}
 		}
@@ -113,8 +116,26 @@ class CPU extends Hardware {
 				case 0x1 => V(x) | V(y)
 				case 0x2 => V(x) & V(y)
 				case 0x3 => V(x) ^ V(y)
-				case 0x4 => V(x) + V(y)
-				case 0x5 => V(x) - V(y)
+				case 0x4 => {
+					if(V(x) + V(y) > 0xFF) {
+						V(0xF) = 1
+						(V(x) + V(y)) & 0xFF
+					}
+					else {
+						V(0xF) = 0
+						V(x) + V(y)
+					}
+				}
+				case 0x5 => {
+					if(V(x) - V(y) < 0x00) {
+						V(0xF) = 0
+						V(x) - V(y) + 0xFF
+					}
+					else {
+						V(0xF) = 1
+						V(x) - V(y)
+					}
+				}
 				case 0x6 => {
 					V(0xF) = V(x) & 0x01
 					V(x) >> 1
@@ -126,8 +147,6 @@ class CPU extends Hardware {
 				}
 				case _ 	 => V(x)
 			}
-			if(V(x) > 0xFF) V(0xF) = 1
-			if(V(x) < 0x00) V(0xF) = 0
 		}
 
 		case setI if (opcode >= 0xA000 && opcode <= 0xAFFF) => I = opcode & 0x0FFF
@@ -146,11 +165,10 @@ class CPU extends Hardware {
 			val n = opcode & 0x000F
 			val oldI = I
 			for (h <- 0 until n; w <- 0 until 8) {
-				val spr = intToBool(memory(I) & (0x80 >>> w))
-				val npx = spr ^ gfx(I)
 				val loc = (y + h) * 64 + x + w
+				val spr = intToBool(memory(I) & (0x80 >>> w))
+				val npx = spr ^ gfx(loc)
 				gfx(loc) = npx
-				// println("h: " + h + ", w: " + w + ", " + gfx(loc))
 				if (spr != npx) V(0xF) = 1
 				else V(0xF) = 0
 				if(w == 7) I += 1
@@ -170,7 +188,7 @@ class CPU extends Hardware {
 			val op = opcode & 0x00FF
 			op match {
 				case 0x07 => V(x) = delayTimer
-				case 0x0A => 
+				case 0x0A => V(x) = Chip8.getKey(keys)
 				case 0x15 => delayTimer = V(x)
 				case 0x18 => soundTimer = V(x)
 				case 0x1E => {
@@ -178,10 +196,18 @@ class CPU extends Hardware {
 					if(I > 0xFFF) V(0xF) = 1
 					else V(0xF) = 0
 				}
-				case 0x29 => 
-				case 0x33 =>
-				case 0x55 =>
-				case 0x65 =>
+				case 0x29 => I = V(x) * 5
+				case 0x33 => {
+					def BCD(in: Char, digit: Int): Char = {
+						var numStr = in.toInt.toString 
+						if(numStr.size == 1) numStr = "00" + numStr
+						if(numStr.size == 2) numStr = "0" + numStr
+						numStr(digit).toString.toInt
+					}
+					for(i <- 0 to 2) memory(I+i) = BCD(V(x), i)
+				}
+				case 0x55 => for(i <- 0 to x) memory(I+i) = V(i)
+				case 0x65 => for(i <- 0 to x) V(i) = memory(I+i)
 				case _ =>
 			}
 		}

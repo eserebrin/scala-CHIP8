@@ -46,10 +46,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 24.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 20.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 20.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware 9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware 9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Stack$ 5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1$$anon$2 20.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2 20.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$delayedInit$body 20.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$delayedInit$body 20.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 19.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 19.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8 13.class[0m
@@ -68,14 +74,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 22.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 22.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 26.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 26.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 20.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 20.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$delayedInit$body 8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$delayedInit$body 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 19.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 19.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Stack$ 3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 2.class[0m
@@ -96,16 +108,22 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Debugger$ 6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU 8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Debugger$ 11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Debugger$ 11.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Debugger$ 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Debugger$ 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1$$anon$2 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$Stack$ 6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$Stack$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Stack$ 11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 11.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8 17.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8 17.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU 10.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 10.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1$$anon$2 19.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2 19.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 3.class[0m
@@ -136,16 +154,22 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Stack$ 6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$delayedInit$body 21.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$delayedInit$body 21.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 18.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 18.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Stack$ 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1$$anon$2 21.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2 21.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 25.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 25.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 21.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 21.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware 8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware 8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$Stack$ 3.class[0m
@@ -158,6 +182,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 11.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$Stack$ 7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$Stack$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Stack$ 10.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 10.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Debugger$ 5.class[0m
@@ -190,14 +216,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$delayedInit$body 9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$delayedInit$body 9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Debugger$ 10.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Debugger$ 10.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1$$anon$2 7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2 7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU 9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Debugger$ 7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Debugger$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU 13.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8 14.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8 14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Stack$ 12.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 12.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$Stack$ 5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$Stack$ 5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8 18.class[0m
@@ -210,6 +242,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 14.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware 13.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware 13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 16.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 16.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$delayedInit$body 5.class[0m
@@ -228,6 +262,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$delayedInit$body 14.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1$$anon$2 14.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2 14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware 11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware 11.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 16.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 16.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 10.class[0m
@@ -240,6 +276,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2 9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU 7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Debugger$ 9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Debugger$ 9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8 3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8 3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 30.class[0m
@@ -298,6 +336,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$delayedInit$body 6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 15.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 15.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware 10.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware 10.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 17.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 17.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU.class[0m
@@ -324,6 +364,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$Stack$ 8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$Stack$ 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8 19.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8 19.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1$$anon$2 17.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1$$anon$2 17.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$delayedInit$body 17.class[0m
@@ -338,6 +380,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 15.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 15.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware 12.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware 12.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware 7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware 7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$delayedInit$body 13.class[0m
@@ -354,6 +398,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$ 13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/CPU$ 33.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU$ 33.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8 20.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8 20.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8 4.class[0m
@@ -366,6 +412,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/CPU 2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$$anon$1 13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$$anon$1 13.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Hardware$Stack$ 9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Hardware$Stack$ 9.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$delayedInit$body 2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/ezraserebrin/Documents/Personal Code/nes-emulator/target/scala-2.12/classes/emulator/chip8/Chip8$delayedInit$body 2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	emulator/chip8/Chip8$ 11.class[0m

@@ -6,35 +6,6 @@ import scalafx.scene.text.Font
 
 abstract class Hardware {
 
-	// *** BEGIN TESTING CODE *** 
-
-	// V(0) = 32
-	// V(1) = 16
-	// memory(0x000) = 0xAA
-	// memory(0x001) = 0x55
-	// memory(0x002) = 0xAA
-	// memory(0x003) = 0x55
-	// memory(0x004) = 0xD0
-	// memory(0x005) = 0x14 // draw a 4px height sprite at (32,16)
-
-	// memory(0x000) = 0x14
-	// memory(0x001) = 0x44 // jump to adress 0x444
-
-	// memory(0x000) = 0x24
-	// memory(0x001) = 0x44 // call subroutine at adress 0x444
-	// memory(0x500) = 0x00
-	// memory(0x501) = 0xEE // return
-
-	// memory(0x000) = 0x60
-	// memory(0x001) = 0x77 // store 0x77 to V(0)
-	// memory(0x002) = 0x70
-	// memory(0x003) = 0x01 // add one to V(0)
-	// memory(0x004) = 0x61
-	// memory(0x005) = 0x88 // store 0x88 to V(1)
-	// memory(0x006) = 0x4
-
-	// *** END OF TESTING CODE *** 
-
     var memory:Array[Char] = Array.fill(0x1000)(0x00)
 	var V = Array.fill[Char](16)(0x00)
 	var I:Char = 0x000
@@ -71,6 +42,7 @@ abstract class Hardware {
 		private var stkP = ""
 		private var delay = ""
 		private var sound = ""
+		private var mem = ""
 
 		def formatHex8(in: Char): String = {
 			val h = in.toHexString.toUpperCase
@@ -102,12 +74,11 @@ abstract class Hardware {
 			g.fillText(vvals, 10, screenHeight+85)
 
 			g.setFont(new Font("Courier", 18))
-			g.fillText(index, 500, screenHeight+80)
+			g.fillText(index, 500, screenHeight+65)
+			g.fillText(stkP, 500, screenHeight+85)
 
-			g.fillText(stkP, 500, screenHeight+60)
-
-			g.fillText(delay, 620, screenHeight+60)
-			g.fillText(sound, 620, screenHeight+80)
+			g.fillText(delay, 620, screenHeight+65)
+			g.fillText(sound, 620, screenHeight+85)
 		}
 
 		def run(): Unit = {
@@ -120,6 +91,8 @@ abstract class Hardware {
 			stkP = "SP: " + formatHex16(Stack.peek)
 			delay = "DELAY:" + delayTimer
 			sound = "SOUND:" + soundTimer
+			// for(i <- I.toInt until I+16) print(formatHex8(memory(i)) + " ")
+			// println
 		}
 
 	}
