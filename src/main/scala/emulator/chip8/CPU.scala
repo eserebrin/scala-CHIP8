@@ -7,13 +7,33 @@ import scala.collection.mutable
 import scalafx.scene.input.KeyCode
 import scalafx.scene.text.Font
 
-class CPU extends Hardware {
-	
-	implicit def chToInt(ch:Char): Int = ch.toInt
-	implicit def intToCh(int:Int): Char = int.toChar
-	implicit def intToBool(int:Int): Boolean = {
+class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
+
+	implicit def chToInt(ch: Char): Int = ch.toInt
+	implicit def intToCh(int: Int): Char = int.toChar
+	implicit def intToBool(int: Int): Boolean = {
 		if(int == 0) false
 		else true
+	}
+
+    var gfx = Array.fill(64*32)(false)
+	var V = Array.fill[Char](16)(0x00)
+	var I: Char = 0x000
+	var PC: Char = 0x200
+
+	object Stack {
+        var arr = Array.fill[Char](16)(0x0000)
+        var sp = 0
+		def push(adr: Char): Unit = {
+			sp += 1
+			arr(sp) = adr
+		}
+		def pop(): Char = {
+			val ret = arr(sp)
+			sp -= 1
+			ret
+		}
+		def peek(): Char = arr(sp)
 	}
 
 	def processGraphics(g: GraphicsContext): Unit = {
@@ -29,46 +49,11 @@ class CPU extends Hardware {
 		}
 	}
 
-	def processInput(keysPressed: mutable.Set[KeyCode]): Unit = {
-		for (key <- keysPressed) {
-			key match {
-				case KeyCode.Digit1	=> keys(0x1) = true
-				case KeyCode.Digit2	=> keys(0x2) = true
-				case KeyCode.Digit3	=> keys(0x3) = true
-				case KeyCode.Digit4	=> keys(0xC) = true
-				case KeyCode.Q		=> keys(0x4) = true
-				case KeyCode.W		=> keys(0x5) = true
-				case KeyCode.E		=> keys(0x6) = true
-				case KeyCode.R		=> keys(0xD) = true
-				case KeyCode.A		=> keys(0x7) = true
-				case KeyCode.S		=> keys(0x8) = true
-				case KeyCode.D		=> keys(0x9) = true
-				case KeyCode.F		=> keys(0xE) = true
-				case KeyCode.Z		=> keys(0xA) = true
-				case KeyCode.X		=> keys(0x0) = true
-				case KeyCode.C		=> keys(0xB) = true
-				case KeyCode.V		=> keys(0xF) = true
-				case _ =>
-			}
-		}
-	}
-
-	def processTimers(): Unit = {
-		if(delayTimer > 0) {
-			soundTimer -= 1
-			delayTimer -=1
-		}
-		else {
-			soundTimer = 60
-			delayTimer = 60
-		}
-	}
-
-	def fetchOpcode(): Char = {
+	def fetchOpcode(debugger: Debugger): Char = {
 		var hb = 0x0000
 		var lb = 0x0000
 		for(i <- 1 to 2) {
-			Debugger.run()
+			debugger.run()
 			if(i == 1) hb = memory(PC) << 8
 			else lb = memory(PC)
 			if(PC < 0x999) PC += 1
@@ -140,7 +125,16 @@ class CPU extends Hardware {
 					V(0xF) = V(x) & 0x01
 					V(x) >> 1
 				}
-				case 0x7 => V(y) - V(x)
+				case 0x7 => {
+					if(V(y) - V(x) < 0x00) {
+						V(0xF) = 0
+						V(y) - V(x) + 0xFF
+					}
+					else {
+						V(0xF) = 1
+						V(y) - V(x)
+					}
+				}
 				case 0xE => {
 					V(0xF) = (V(x) & 0x80) >>> 7
 					V(x) << 1
@@ -165,7 +159,7 @@ class CPU extends Hardware {
 			val n = opcode & 0x000F
 			val oldI = I
 			for (h <- 0 until n; w <- 0 until 8) {
-				val loc = (y + h) * 64 + x + w
+				val loc = (y + h) * 64 + x + w // causing problems ?
 				val spr = intToBool(memory(I) & (0x80 >>> w))
 				val npx = spr ^ gfx(loc)
 				gfx(loc) = npx
@@ -179,18 +173,18 @@ class CPU extends Hardware {
 		case keyOps if (opcode >= 0xE000 && opcode <= 0xEFFF) => {
 			val x = (opcode & 0x0F00) >>> 8
 			val op = opcode & 0x00FF
-			if(op == 0x9E && keys(V(x))) PC += 2
-			if(op == 0xA1 && !keys(V(x))) PC += 2
+			if(op == 0x9E && keyboard.keys(V(x))) PC += 2
+			if(op == 0xA1 && !keyboard.keys(V(x))) PC += 2
 		}
 
 		case fx if (opcode >= 0xF000 && opcode <= 0xFFFF) => {
 			val x = (opcode & 0x0F00) >>> 8
 			val op = opcode & 0x00FF
 			op match {
-				case 0x07 => V(x) = delayTimer
-				case 0x0A => V(x) = Chip8.getKey(keys)
-				case 0x15 => delayTimer = V(x)
-				case 0x18 => soundTimer = V(x)
+				case 0x07 => V(x) = clock.delayTimer
+				case 0x0A => V(x) = keyboard.getKey()
+				case 0x15 => clock.delayTimer = V(x)
+				case 0x18 => clock.soundTimer = V(x)
 				case 0x1E => {
 					I += V(x)
 					if(I > 0xFFF) V(0xF) = 1

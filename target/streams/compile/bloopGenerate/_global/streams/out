@@ -1,4 +1,4 @@
-[debug] [nes-emulator] Classpath dependencies List()
-[debug] [nes-emulator] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'nes-emulator' to '/Users/ezraserebrin/Documents/Personal Code/nes-emulator/.bloop/nes-emulator.json'
-[success] Generated .bloop/nes-emulator.json
+[debug] [chip-8-emulator] Classpath dependencies List()
+[debug] [chip-8-emulator] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'chip-8-emulator' to '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator.json'
+[success] Generated .bloop/chip-8-emulator.json

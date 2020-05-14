@@ -5426,3 +5426,1448 @@ May 11, 2020 9:21:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTraceNotification
 2020.05.12 16:09:17 INFO  skipping build import with status 'Installed'
 2020.05.12 16:09:20 WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/nes-emulator/src/test/FileTest.scala
+2020.05.12 16:16:50 INFO  shutting down Metals
+2020.05.12 16:17:33 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator'
+2020.05.12 16:17:33 INFO  time: initialize in 0.45s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher1850384695799242297/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/nes-emulator-test.json'
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/nes-emulator.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'nes-emulator-test', 'nes-emulator'
+[0m[32m[D][0m Missing analysis file for project 'nes-emulator-test'
+[0m[32m[D][0m Missing analysis file for project 'nes-emulator'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher1850384695799242297/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher1850384695799242297/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.12 16:17:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.12 16:17:38 INFO  time: connected to build server in 0.8s
+2020.05.12 16:17:38 INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+2020.05.12 16:17:39 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/metals519933969862034588/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.05.12 16:17:40 INFO  skipping build import with status 'Started'
+2020.05.12 16:17:40 INFO  time: indexed workspace in 2.5s
+2020.05.12 16:17:48 INFO  [info] Loading settings for project chip-8-emulator-build from metals.sbt ...
+2020.05.12 16:17:49 INFO  [info] Loading project definition from /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/project
+2020.05.12 16:17:58 INFO  [info] Loading settings for project chip-8-emulator from build.sbt ...
+2020.05.12 16:17:58 INFO  [info] Set current project to Emulator (in build file:/Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/)
+2020.05.12 16:17:59 INFO  no build target: using presentation compiler with only scala-library
+2020.05.12 16:18:01 INFO  [success] Generated .bloop/chip-8-emulator-test.json
+2020.05.12 16:18:01 INFO  [success] Generated .bloop/chip-8-emulator.json
+2020.05.12 16:18:01 INFO  [warn] Removed stale /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/nes-emulator-test.json
+2020.05.12 16:18:01 INFO  [warn] Removed stale /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/nes-emulator.json
+2020.05.12 16:18:01 INFO  [success] Total time: 1 s, completed May 12, 2020 4:18:01 PM
+2020.05.12 16:18:01 INFO  build tool exit: 0
+2020.05.12 16:18:02 INFO  time: ran 'sbt bloopInstall' in 22s
+2020.05.12 16:18:02 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6088445748621354723/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator-test.json'
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'chip-8-emulator-test', 'chip-8-emulator'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6088445748621354723/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6088445748621354723/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.12 16:18:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.12 16:18:02 INFO  time: connected to build server in 0.1s
+2020.05.12 16:18:02 INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+May 12, 2020 4:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2020.05.12 16:18:04 INFO  time: indexed workspace in 2.17s
+2020.05.12 16:18:21 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 16:18:26 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 16:18:26 INFO  time: compiled chip-8-emulator in 5.43s
+2020.05.12 16:18:57 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/metals5836098890062592291/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.05.12 16:19:03 INFO  [info] Loading settings for project chip-8-emulator-build from metals.sbt ...
+2020.05.12 16:19:03 INFO  [info] Loading project definition from /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/project
+2020.05.12 16:19:09 INFO  [info] Loading settings for project chip-8-emulator from build.sbt ...
+2020.05.12 16:19:09 INFO  [info] Set current project to Chip8Emu (in build file:/Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/)
+2020.05.12 16:19:12 INFO  [success] Generated .bloop/chip-8-emulator.json
+2020.05.12 16:19:12 INFO  [success] Generated .bloop/chip-8-emulator-test.json
+2020.05.12 16:19:12 INFO  [success] Total time: 2 s, completed May 12, 2020 4:19:12 PM
+2020.05.12 16:19:12 INFO  build tool exit: 0
+2020.05.12 16:19:12 INFO  time: ran 'sbt bloopInstall' in 14s
+2020.05.12 16:19:12 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8814802465547893530/bsp.socket'...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8814802465547893530/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher8814802465547893530/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.12 16:19:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.12 16:19:12 INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+2020.05.12 16:19:12 INFO  time: indexed workspace in 0.44s
+2020.05.12 16:25:57 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:25:58 INFO  time: compiled chip-8-emulator in 1.34s
+2020.05.12 16:28:20 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:28:22 INFO  time: compiled chip-8-emulator in 1.63s
+2020.05.12 16:28:53 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:28:55 INFO  time: compiled chip-8-emulator in 1.77s
+May 12, 2020 4:30:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 402
+May 12, 2020 4:32:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 689
+2020.05.12 16:32:07 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:32:09 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 16:32:09 INFO  time: compiled chip-8-emulator in 1.79s
+2020.05.12 16:33:36 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:33:37 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 16:33:37 INFO  time: compiled chip-8-emulator in 1.4s
+2020.05.12 16:34:13 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:34:14 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 16:34:14 INFO  time: compiled chip-8-emulator in 1.44s
+2020.05.12 16:41:15 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:41:18 INFO  time: compiled chip-8-emulator in 2.81s
+2020.05.12 16:44:55 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:44:57 INFO  time: compiled chip-8-emulator in 1.37s
+May 12, 2020 4:45:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1062
+2020.05.12 16:45:34 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:45:35 INFO  time: compiled chip-8-emulator in 1.13s
+2020.05.12 16:47:43 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:47:45 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 16:47:45 INFO  time: compiled chip-8-emulator in 2.7s
+2020.05.12 16:47:57 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:47:58 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 16:47:58 INFO  time: compiled chip-8-emulator in 1.23s
+2020.05.12 16:48:53 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:48:55 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 16:48:55 INFO  time: compiled chip-8-emulator in 1.33s
+2020.05.12 16:51:51 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:51:51 INFO  time: compiled chip-8-emulator in 0.96s
+2020.05.12 16:57:29 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:57:30 INFO  time: compiled chip-8-emulator in 1.06s
+2020.05.12 16:59:13 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 16:59:14 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 16:59:14 INFO  time: compiled chip-8-emulator in 1.31s
+2020.05.12 17:00:11 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 17:00:12 INFO  time: compiled chip-8-emulator in 1.23s
+2020.05.12 18:57:16 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 18:57:17 INFO  time: compiled chip-8-emulator in 1.23s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in scala.collection.mutable.Set[scalafx.scene.input.KeyCode]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 736, 744, 756)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in scala.collection.mutable.Set[scalafx.scene.input.KeyCode]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 736, 744, 756)
+May 12, 2020 6:59:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1687
+2020.05.12 19:04:21 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 19:04:21 INFO  time: compiled chip-8-emulator in 0.41s
+May 12, 2020 7:05:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1924
+2020.05.12 19:05:35 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 19:05:35 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.12 19:06:22 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 19:06:22 INFO  time: compiled chip-8-emulator in 0.11s
+2020.05.12 19:07:11 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 19:07:11 INFO  time: compiled chip-8-emulator in 87ms
+2020.05.12 19:07:14 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 19:07:14 INFO  time: compiled chip-8-emulator in 0.13s
+2020.05.12 20:20:15 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:20:15 INFO  time: compiled chip-8-emulator in 0.38s
+May 12, 2020 8:20:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2326
+2020.05.12 20:20:53 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:20:53 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.12 20:32:00 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:32:00 INFO  time: compiled chip-8-emulator in 0.38s
+May 12, 2020 8:35:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2577
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 245, 245, 260)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 245, 245, 253)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 245, 245, 255)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 245, 245, 256)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 245, 245, 257)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 245, 245, 258)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[Boolean]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 245, 245, 259)
+2020.05.12 20:35:19 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:35:19 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.12 20:35:55 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:35:55 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.12 20:40:38 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:40:38 INFO  time: compiled chip-8-emulator in 0.34s
+May 12, 2020 8:40:54 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 12, 2020 8:40:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+2020.05.12 20:41:41 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:41:41 INFO  time: compiled chip-8-emulator in 0.31s
+May 12, 2020 8:42:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2994
+May 12, 2020 8:42:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3036
+May 12, 2020 8:42:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3038
+2020.05.12 20:45:27 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:45:27 INFO  time: compiled chip-8-emulator in 0.27s
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:48:28: stale bloop error: not found: value keys
+				case KeyCode.Digit1	=> keys(0x1) = true
+                           ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:49:28: stale bloop error: not found: value keys
+				case KeyCode.Digit2	=> keys(0x2) = true
+                           ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:50:28: stale bloop error: not found: value keys
+				case KeyCode.Digit3	=> keys(0x3) = true
+                           ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:51:28: stale bloop error: not found: value keys
+				case KeyCode.Digit4	=> keys(0xC) = true
+                           ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:52:24: stale bloop error: not found: value keys
+				case KeyCode.Q		=> keys(0x4) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:53:24: stale bloop error: not found: value keys
+				case KeyCode.W		=> keys(0x5) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:54:24: stale bloop error: not found: value keys
+				case KeyCode.E		=> keys(0x6) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:55:24: stale bloop error: not found: value keys
+				case KeyCode.R		=> keys(0xD) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:56:24: stale bloop error: not found: value keys
+				case KeyCode.A		=> keys(0x7) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:57:24: stale bloop error: not found: value keys
+				case KeyCode.S		=> keys(0x8) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:58:24: stale bloop error: not found: value keys
+				case KeyCode.D		=> keys(0x9) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:59:24: stale bloop error: not found: value keys
+				case KeyCode.F		=> keys(0xE) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:60:24: stale bloop error: not found: value keys
+				case KeyCode.Z		=> keys(0xA) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:61:24: stale bloop error: not found: value keys
+				case KeyCode.X		=> keys(0x0) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:62:24: stale bloop error: not found: value keys
+				case KeyCode.C		=> keys(0xB) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:63:24: stale bloop error: not found: value keys
+				case KeyCode.V		=> keys(0xF) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:65:33: stale bloop error: value unary_! is not a member of Unit
+					if(cpu.Debugger.enabled && !wait)
+                                ^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:74:6: stale bloop error: not found: value keysPressed
+		if(keysPressed.isEmpty) Thread.sleep(10)
+     ^^^^^^^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:85:4: stale bloop error: not found: value processKeys
+			processKeys(canvas)
+   ^^^^^^^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:90:34: stale bloop error: value unary_! is not a member of Unit
+					if(!cpu.Debugger.enabled && !wait)
+                                 ^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:94:6: stale bloop error: type mismatch;
+ found   : Unit
+ required: Array[Boolean]
+					cpu.Debugger.display(g)
+     ^^^^^^^^^^^^^^^^^^^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:48:28: stale bloop error: not found: value keys
+				case KeyCode.Digit1	=> keys(0x1) = true
+                           ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:49:28: stale bloop error: not found: value keys
+				case KeyCode.Digit2	=> keys(0x2) = true
+                           ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:50:28: stale bloop error: not found: value keys
+				case KeyCode.Digit3	=> keys(0x3) = true
+                           ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:51:28: stale bloop error: not found: value keys
+				case KeyCode.Digit4	=> keys(0xC) = true
+                           ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:52:24: stale bloop error: not found: value keys
+				case KeyCode.Q		=> keys(0x4) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:53:24: stale bloop error: not found: value keys
+				case KeyCode.W		=> keys(0x5) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:54:24: stale bloop error: not found: value keys
+				case KeyCode.E		=> keys(0x6) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:55:24: stale bloop error: not found: value keys
+				case KeyCode.R		=> keys(0xD) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:56:24: stale bloop error: not found: value keys
+				case KeyCode.A		=> keys(0x7) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:57:24: stale bloop error: not found: value keys
+				case KeyCode.S		=> keys(0x8) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:58:24: stale bloop error: not found: value keys
+				case KeyCode.D		=> keys(0x9) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:59:24: stale bloop error: not found: value keys
+				case KeyCode.F		=> keys(0xE) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:60:24: stale bloop error: not found: value keys
+				case KeyCode.Z		=> keys(0xA) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:61:24: stale bloop error: not found: value keys
+				case KeyCode.X		=> keys(0x0) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:62:24: stale bloop error: not found: value keys
+				case KeyCode.C		=> keys(0xB) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:63:24: stale bloop error: not found: value keys
+				case KeyCode.V		=> keys(0xF) = true
+                       ^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:65:33: stale bloop error: value unary_! is not a member of Unit
+					if(cpu.Debugger.enabled && !wait)
+                                ^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:74:6: stale bloop error: not found: value keysPressed
+		if(keysPressed.isEmpty) Thread.sleep(10)
+     ^^^^^^^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:85:4: stale bloop error: not found: value processKeys
+			processKeys(canvas)
+   ^^^^^^^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:90:34: stale bloop error: value unary_! is not a member of Unit
+					if(!cpu.Debugger.enabled && !wait)
+                                 ^^^^^
+2020.05.12 20:45:42 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:94:6: stale bloop error: type mismatch;
+ found   : Unit
+ required: Array[Boolean]
+					cpu.Debugger.display(g)
+     ^^^^^^^^^^^^^^^^^^^^^^^
+2020.05.12 20:49:22 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:49:22 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.12 20:49:33 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:49:33 INFO  time: compiled chip-8-emulator in 0.43s
+2020.05.12 20:49:33 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:49:33 INFO  time: compiled chip-8-emulator in 0.44s
+May 12, 2020 8:49:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3954
+2020.05.12 20:49:56 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:49:56 INFO  time: compiled chip-8-emulator in 0.33s
+2020.05.12 20:50:11 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:50:11 INFO  time: compiled chip-8-emulator in 0.11s
+2020.05.12 20:50:11 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:50:11 INFO  time: compiled chip-8-emulator in 28ms
+2020.05.12 20:50:31 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:50:31 INFO  time: compiled chip-8-emulator in 0.34s
+2020.05.12 20:50:47 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:50:47 INFO  time: compiled chip-8-emulator in 0.34s
+2020.05.12 20:50:47 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:50:47 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.12 20:54:34 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:54:34 INFO  time: compiled chip-8-emulator in 97ms
+2020.05.12 20:55:08 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:55:08 INFO  time: compiled chip-8-emulator in 0.1s
+May 12, 2020 8:55:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 12, 2020 8:55:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:233)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+May 12, 2020 8:55:15 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 12, 2020 8:55:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+2020.05.12 20:57:44 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:57:44 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.12 20:57:51 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:57:51 INFO  time: compiled chip-8-emulator in 0.37s
+2020.05.12 20:57:51 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:57:51 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.12 20:58:21 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 20:58:21 INFO  time: compiled chip-8-emulator in 0.28s
+May 12, 2020 9:00:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4846
+2020.05.12 21:00:21 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 21:00:21 INFO  time: compiled chip-8-emulator in 93ms
+2020.05.12 21:01:22 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 21:01:22 INFO  time: compiled chip-8-emulator in 0.3s
+May 12, 2020 9:01:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4999
+2020.05.12 21:02:00 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 21:02:02 INFO  time: compiled chip-8-emulator in 1.59s
+2020.05.12 21:03:48 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 21:03:49 INFO  time: compiled chip-8-emulator in 1.54s
+2020.05.12 21:04:37 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 21:04:39 INFO  time: compiled chip-8-emulator in 1.64s
+2020.05.12 21:05:03 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 21:05:05 INFO  time: compiled chip-8-emulator in 1.69s
+2020.05.12 21:05:42 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 21:05:45 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 21:05:45 INFO  time: compiled chip-8-emulator in 2.31s
+May 12, 2020 9:05:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5697
+2020.05.12 21:09:58 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 21:09:59 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 21:09:59 INFO  time: compiled chip-8-emulator in 1.45s
+2020.05.12 21:14:38 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 21:14:40 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 21:14:40 INFO  time: compiled chip-8-emulator in 1.57s
+2020.05.12 21:21:25 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 21:21:27 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 21:21:27 INFO  time: compiled chip-8-emulator in 2.08s
+2020.05.12 21:21:28 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+2020.05.12 21:21:41 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator'
+2020.05.12 21:21:41 INFO  time: initialize in 0.42s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher7875543245941342276/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher7875543245941342276/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher7875543245941342276/bsp.socket...
+2020.05.12 21:21:42 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.12 21:21:42 INFO  no build target: using presentation compiler with only scala-library
+2020.05.12 21:21:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.12 21:21:42 INFO  time: connected to build server in 0.52s
+2020.05.12 21:21:42 INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+2020.05.12 21:21:46 INFO  time: indexed workspace in 4.13s
+2020.05.12 21:21:56 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 21:21:57 INFO  time: compiled chip-8-emulator in 1.01s
+2020.05.12 21:24:27 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 21:24:28 INFO  time: compiled chip-8-emulator in 1.14s
+2020.05.12 21:58:24 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 21:58:25 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 21:58:25 INFO  time: compiled chip-8-emulator in 1.61s
+2020.05.12 22:11:20 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:11:22 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 22:11:22 INFO  time: compiled chip-8-emulator in 1.31s
+2020.05.12 22:11:34 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:11:35 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 22:11:35 INFO  time: compiled chip-8-emulator in 1.63s
+May 12, 2020 10:12:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 390
+May 12, 2020 10:13:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 460
+May 12, 2020 10:13:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 463
+2020.05.12 22:15:04 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:15:04 INFO  time: compiled chip-8-emulator in 0.28s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala, 2297, 2297, 2312)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala, 2297, 2297, 2307)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala, 2297, 2297, 2308)
+May 12, 2020 10:15:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 745
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala, 2297, 2297, 2309)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala in Array[Boolean]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala, 2297, 2297, 2311)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala in Array[Boolean]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala, 2297, 2297, 2311)
+2020.05.12 22:15:17 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:15:17 INFO  time: compiled chip-8-emulator in 0.42s
+2020.05.12 22:15:17 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:15:17 INFO  time: compiled chip-8-emulator in 0.19s
+2020.05.12 22:15:31 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:15:31 INFO  time: compiled chip-8-emulator in 0.12s
+2020.05.12 22:15:31 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:15:31 INFO  time: compiled chip-8-emulator in 29ms
+2020.05.12 22:15:33 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:15:33 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.12 22:15:50 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:15:50 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.12 22:15:50 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:15:50 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.12 22:16:02 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:16:03 INFO  time: compiled chip-8-emulator in 1.16s
+2020.05.12 22:16:03 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 22:16:04 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 22:16:04 INFO  time: compiled chip-8-emulator in 1.04s
+May 12, 2020 10:17:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1204
+2020.05.12 22:17:46 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:17:46 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.12 22:17:57 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:17:57 INFO  time: compiled chip-8-emulator in 0.22s
+2020.05.12 22:17:57 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:17:57 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.12 22:18:35 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 22:18:35 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.12 22:18:50 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 22:18:50 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.12 22:18:50 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 22:18:50 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.12 22:25:06 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 22:25:06 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.12 22:25:39 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.12 22:25:41 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.12 22:25:41 INFO  time: compiled chip-8-emulator in 2.04s
+2020.05.12 22:28:55 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.12 22:28:55 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.12 22:32:27 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:32:27 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.12 22:32:27 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:32:27 INFO  time: compiled chip-8-emulator in 0.16s
+2020.05.12 22:32:58 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:32:58 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.12 22:33:49 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:33:49 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.12 22:34:00 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:34:00 INFO  time: compiled chip-8-emulator in 0.33s
+2020.05.12 22:34:00 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:34:00 INFO  time: compiled chip-8-emulator in 0.27s
+May 12, 2020 10:34:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1769
+2020.05.12 22:34:45 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:34:45 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.12 22:35:17 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:35:17 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.12 22:36:05 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:05 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.12 22:36:30 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:30 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.12 22:36:38 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:38 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.12 22:36:38 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:38 INFO  time: compiled chip-8-emulator in 0.14s
+2020.05.12 22:36:47 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:47 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.12 22:36:47 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:47 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.12 22:36:53 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:53 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.12 22:36:53 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:53 INFO  time: compiled chip-8-emulator in 0.16s
+2020.05.12 22:36:55 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:36:55 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.12 22:37:27 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:37:27 INFO  time: compiled chip-8-emulator in 0.31s
+2020.05.12 22:37:41 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:37:41 INFO  time: compiled chip-8-emulator in 0.12s
+2020.05.12 22:37:41 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:37:41 INFO  time: compiled chip-8-emulator in 21ms
+2020.05.12 22:37:44 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:37:44 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.12 22:38:43 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:38:43 INFO  time: compiled chip-8-emulator in 0.23s
+May 12, 2020 10:39:02 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.05.12 22:39:05 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:39:05 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.12 22:39:14 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:39:14 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.12 22:39:14 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:39:14 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.12 22:39:23 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:39:23 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.12 22:39:23 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:39:23 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.12 22:39:26 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:39:26 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.12 22:39:26 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:39:26 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:38:34: stale bloop error: not found: value cpu
+			if(e.code == KeyCode.Space && cpu.Debugger.enabled && !waitingForInput)
+                                 ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:39:5: stale bloop error: not found: value cpu
+				cpu.processInstruction(cpu.fetchOpcode)
+    ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:39:28: stale bloop error: not found: value cpu
+				cpu.processInstruction(cpu.fetchOpcode)
+                           ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:37:25: stale bloop error: type mismatch;
+ found   : scalafx.scene.input.KeyEvent => Unit
+ required: javafx.event.EventHandler[_ >: javafx.scene.input.KeyEvent]
+> (e: KeyEvent) => {
+> 			if(e.code == KeyCode.Space && cpu.Debugger.enabled && !waitingForInput)
+> 				cpu.processInstruction(cpu.fetchOpcode)
+> 			else keysPressed += e.code
+> 		}
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:42:26: stale bloop error: type mismatch;
+ found   : scalafx.scene.input.KeyEvent => Unit
+ required: javafx.event.EventHandler[_ >: javafx.scene.input.KeyEvent]
+> (e: KeyEvent) => {
+> 			keysPressed -= e.code
+> 		}
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:48:10: stale bloop error: not found: value cpu
+		while(!cpu.keys.contains(true)) {
+         ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:50:17: stale bloop error: no arguments allowed for nullary method processInput: ()Unit
+			processInput(canvas)
+                ^^^^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:51:4: stale bloop error: not found: value cpu
+			cpu.keys = getKeys()
+   ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:54:3: stale bloop error: not found: value cpu
+		cpu.keys.indexOf(true).toChar
+  ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:38:34: stale bloop error: not found: value cpu
+			if(e.code == KeyCode.Space && cpu.Debugger.enabled && !waitingForInput)
+                                 ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:39:5: stale bloop error: not found: value cpu
+				cpu.processInstruction(cpu.fetchOpcode)
+    ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:39:28: stale bloop error: not found: value cpu
+				cpu.processInstruction(cpu.fetchOpcode)
+                           ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:37:25: stale bloop error: type mismatch;
+ found   : scalafx.scene.input.KeyEvent => Unit
+ required: javafx.event.EventHandler[_ >: javafx.scene.input.KeyEvent]
+> (e: KeyEvent) => {
+> 			if(e.code == KeyCode.Space && cpu.Debugger.enabled && !waitingForInput)
+> 				cpu.processInstruction(cpu.fetchOpcode)
+> 			else keysPressed += e.code
+> 		}
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:42:26: stale bloop error: type mismatch;
+ found   : scalafx.scene.input.KeyEvent => Unit
+ required: javafx.event.EventHandler[_ >: javafx.scene.input.KeyEvent]
+> (e: KeyEvent) => {
+> 			keysPressed -= e.code
+> 		}
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:48:10: stale bloop error: not found: value cpu
+		while(!cpu.keys.contains(true)) {
+         ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:50:17: stale bloop error: no arguments allowed for nullary method processInput: ()Unit
+			processInput(canvas)
+                ^^^^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:51:4: stale bloop error: not found: value cpu
+			cpu.keys = getKeys()
+   ^^^
+2020.05.12 22:43:58 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala:54:3: stale bloop error: not found: value cpu
+		cpu.keys.indexOf(true).toChar
+  ^^^
+2020.05.12 22:44:39 ERROR code navigation does not work for the file '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala' because the SemanticDB file '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator/bloop-bsp-clients-classes/classes-Metals-6Rlgd090T1ikBck5H53w7g==/META-INF/semanticdb/src/main/scala/emulator/chip8/Keyboard.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.05.12 22:44:39 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 22:44:39 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.12 23:55:54 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 23:55:54 INFO  time: compiled chip-8-emulator in 0.22s
+2020.05.12 23:56:42 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 23:56:42 INFO  time: compiled chip-8-emulator in 0.37s
+2020.05.12 23:57:11 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.12 23:57:11 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.12 23:57:13 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:57:13 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.12 23:57:13 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:57:13 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.12 23:57:25 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:57:25 INFO  time: compiled chip-8-emulator in 0.34s
+2020.05.12 23:57:25 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:57:25 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.12 23:57:59 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:57:59 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.12 23:58:24 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:58:24 INFO  time: compiled chip-8-emulator in 0.27s
+2020.05.12 23:59:04 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:59:04 INFO  time: compiled chip-8-emulator in 0.33s
+2020.05.12 23:59:31 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:59:31 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.12 23:59:41 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:59:41 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.12 23:59:41 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.12 23:59:41 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.13 00:00:02 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.13 00:00:02 INFO  time: compiled chip-8-emulator in 0.27s
+2020.05.13 00:00:40 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.13 00:00:40 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 00:00:57 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.13 00:00:57 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.13 00:01:07 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.13 00:01:07 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 00:01:07 INFO  compiling chip-8-emulator (4 scala sources)
+2020.05.13 00:01:07 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.13 00:05:05 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:05:05 INFO  time: compiled chip-8-emulator in 0.46s
+2020.05.13 00:05:05 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:05:05 INFO  time: compiled chip-8-emulator in 0.2s
+May 13, 2020 12:05:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3458
+2020.05.13 00:05:38 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:05:38 INFO  time: compiled chip-8-emulator in 0.59s
+2020.05.13 00:05:38 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:05:38 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 00:06:57 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:06:57 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.13 00:07:22 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:07:22 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.13 00:07:30 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:07:30 INFO  time: compiled chip-8-emulator in 0.27s
+2020.05.13 00:07:30 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:07:30 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 00:07:47 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:07:47 INFO  time: compiled chip-8-emulator in 0.26s
+May 13, 2020 12:07:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3832
+2020.05.13 00:08:02 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:08:02 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.13 00:08:25 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:08:25 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.13 00:08:51 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:08:51 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 00:09:38 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:09:38 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.13 00:10:19 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:10:19 INFO  time: compiled chip-8-emulator in 0.3s
+May 13, 2020 12:11:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4100
+2020.05.13 00:12:46 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:12:46 INFO  time: compiled chip-8-emulator in 0.33s
+2020.05.13 00:13:01 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:13:01 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.13 00:14:21 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:14:21 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 00:15:19 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:15:19 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.13 00:15:36 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:15:36 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.13 00:18:57 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:18:57 INFO  time: compiled chip-8-emulator in 0.35s
+2020.05.13 00:19:06 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:19:06 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 00:19:06 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:19:06 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 00:19:15 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:19:15 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.13 00:19:15 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 00:19:15 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 16:14:53 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator'
+2020.05.13 16:14:54 INFO  time: initialize in 0.84s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6262666895530398948/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.05.13 16:14:58 INFO  skipping build import with status 'Installed'
+2020.05.13 16:14:58 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.05.13 16:15:03 WARN  no build target for: /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Memory.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-229-b7c15aa9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator.json'
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.10.
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/jansi.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/jline.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-library.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar
+[0m[32m[D][0m   => /Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'chip-8-emulator-test', 'chip-8-emulator'
+[0m[32m[D][0m Missing analysis file for project 'chip-8-emulator-test'
+[0m[32m[D][0m Loading previous analysis for 'chip-8-emulator' from '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6262666895530398948/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6262666895530398948/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.13 16:15:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.13 16:15:06 INFO  time: connected to build server in 7.48s
+2020.05.13 16:15:06 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.05.13 16:15:05 INFO  time: imported build in 0.12s
+2020.05.13 16:15:08 INFO  time: indexed workspace in 1.98s
+2020.05.13 16:15:10 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 16:15:14 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.05.13 16:15:14 ERROR Unexpected error initializing server
+java.util.concurrent.ExecutionException: Boxed InterruptedException
+	at scala.concurrent.impl.Promise$.resolver(Promise.scala:86)
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolveTry(Promise.scala:79)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:284)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:100)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:97)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$3(BuildServerConnection.scala:196)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:196)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:17)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:28)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:27)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:18)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:74)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:68)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$3(BuildServerConnection.scala:196)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:196)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:17)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:28)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:27)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:18)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:74)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:68)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.05.13 16:56:15 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator'
+2020.05.13 16:56:16 INFO  time: initialize in 0.74s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher9179555802783002596/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.05.13 16:56:16 INFO  skipping build import with status 'Installed'
+2020.05.13 16:56:16 INFO  no build target: using presentation compiler with only scala-library
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher9179555802783002596/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher9179555802783002596/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.13 16:56:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.13 16:56:16 INFO  time: connected to build server in 0.3s
+2020.05.13 16:56:16 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.05.13 16:56:16 INFO  time: imported build in 0.12s
+2020.05.13 16:56:19 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 16:56:20 INFO  time: indexed workspace in 3.88s
+2020.05.13 16:56:19 INFO  Deduplicating compilation of chip-8-emulator from bsp client 'Metals 0.9.0' (since 4.055s)
+2020.05.13 16:56:19 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 16:56:22 INFO  time: compiled chip-8-emulator in 1.85s
+2020.05.13 17:02:04 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:02:04 INFO  time: compiled chip-8-emulator in 0.97s
+2020.05.13 17:02:07 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:02:07 INFO  time: compiled chip-8-emulator in 0.59s
+2020.05.13 17:02:25 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:02:25 INFO  time: compiled chip-8-emulator in 0.89s
+2020.05.13 17:02:45 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:02:45 INFO  time: compiled chip-8-emulator in 0.74s
+May 13, 2020 5:07:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 141
+May 13, 2020 5:07:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+May 13, 2020 5:07:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+May 13, 2020 5:07:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 142
+2020.05.13 17:07:45 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:07:45 INFO  time: compiled chip-8-emulator in 0.55s
+2020.05.13 17:08:02 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:08:02 INFO  time: compiled chip-8-emulator in 0.68s
+2020.05.13 17:08:30 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:08:30 INFO  time: compiled chip-8-emulator in 0.65s
+2020.05.13 17:08:36 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:08:36 INFO  time: compiled chip-8-emulator in 0.87s
+2020.05.13 17:08:36 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:08:37 INFO  time: compiled chip-8-emulator in 0.5s
+2020.05.13 17:09:35 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:09:35 INFO  time: compiled chip-8-emulator in 0.52s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 243, 243, 257)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 243, 243, 261)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 243, 243, 260)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 243, 243, 259)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 243, 243, 258)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala, 243, 243, 261)
+2020.05.13 17:10:02 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:10:02 INFO  time: compiled chip-8-emulator in 0.44s
+2020.05.13 17:10:23 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:10:23 INFO  time: compiled chip-8-emulator in 0.5s
+2020.05.13 17:11:02 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:11:02 INFO  time: compiled chip-8-emulator in 0.44s
+2020.05.13 17:11:40 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:11:40 INFO  time: compiled chip-8-emulator in 0.45s
+2020.05.13 17:11:49 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:11:49 INFO  time: compiled chip-8-emulator in 0.45s
+2020.05.13 17:11:49 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:11:49 INFO  time: compiled chip-8-emulator in 0.33s
+2020.05.13 17:11:54 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:11:54 INFO  time: compiled chip-8-emulator in 0.43s
+2020.05.13 17:11:54 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:11:54 INFO  time: compiled chip-8-emulator in 0.41s
+2020.05.13 17:11:57 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:11:57 INFO  time: compiled chip-8-emulator in 0.43s
+2020.05.13 17:11:57 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:11:57 INFO  time: compiled chip-8-emulator in 0.5s
+2020.05.13 17:12:00 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:12:00 INFO  time: compiled chip-8-emulator in 0.42s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala in Array[Boolean]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala, 237, 237, 251)
+2020.05.13 17:12:11 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:12:11 INFO  time: compiled chip-8-emulator in 0.43s
+2020.05.13 17:12:11 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:12:11 INFO  time: compiled chip-8-emulator in 0.45s
+2020.05.13 17:12:55 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:12:55 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 17:13:47 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:13:47 INFO  time: compiled chip-8-emulator in 0.59s
+2020.05.13 17:14:00 INFO  compiling chip-8-emulator (5 scala sources)
+2020.05.13 17:14:00 INFO  time: compiled chip-8-emulator in 0.38s
+2020.05.13 17:14:59 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:14:59 INFO  time: compiled chip-8-emulator in 0.41s
+2020.05.13 17:14:59 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:14:59 INFO  time: compiled chip-8-emulator in 0.41s
+2020.05.13 17:15:28 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:15:28 INFO  time: compiled chip-8-emulator in 86ms
+2020.05.13 17:15:35 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:15:35 INFO  time: compiled chip-8-emulator in 0.43s
+2020.05.13 17:15:35 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:15:35 INFO  time: compiled chip-8-emulator in 0.48s
+2020.05.13 17:15:37 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:15:37 INFO  time: compiled chip-8-emulator in 0.34s
+2020.05.13 17:15:53 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:15:53 INFO  time: compiled chip-8-emulator in 0.37s
+2020.05.13 17:16:00 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:16:00 INFO  time: compiled chip-8-emulator in 0.5s
+2020.05.13 17:16:00 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:16:02 INFO  time: compiled chip-8-emulator in 0.58s
+2020.05.13 17:16:08 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:16:08 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.13 17:16:08 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:16:08 INFO  time: compiled chip-8-emulator in 0.39s
+May 13, 2020 5:16:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1003
+2020.05.13 17:16:45 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:16:45 INFO  time: compiled chip-8-emulator in 0.35s
+2020.05.13 17:18:52 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:18:52 INFO  time: compiled chip-8-emulator in 0.39s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[<error>]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala, 166, 166, 181)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala, 166, 166, 177)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala, 166, 166, 177)
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala, 166, 166, 177)
+2020.05.13 17:26:52 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:26:52 INFO  time: compiled chip-8-emulator in 0.31s
+2020.05.13 17:27:33 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:27:33 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.13 17:27:38 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:62:26: stale bloop error: not found: value V
+        for(i <- 0 until V.size) vkeys += "V" + i.toHexString.toUpperCase + " "
+                         ^
+2020.05.13 17:27:38 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:63:26: stale bloop error: not found: value V
+        for(i <- 0 until V.size) vvals += formatHex8(cpu.V(i)) + " "
+                         ^
+2020.05.13 17:27:38 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:66:28: stale bloop error: not found: value delayTimer
+        delay = "DELAY:" + delayTimer
+                           ^^^^^^^^^^
+2020.05.13 17:27:38 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:67:28: stale bloop error: not found: value soundTimer
+        sound = "SOUND:" + soundTimer
+                           ^^^^^^^^^^
+2020.05.13 17:27:38 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:62:26: stale bloop error: not found: value V
+        for(i <- 0 until V.size) vkeys += "V" + i.toHexString.toUpperCase + " "
+                         ^
+2020.05.13 17:27:38 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:63:26: stale bloop error: not found: value V
+        for(i <- 0 until V.size) vvals += formatHex8(cpu.V(i)) + " "
+                         ^
+2020.05.13 17:27:38 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:66:28: stale bloop error: not found: value delayTimer
+        delay = "DELAY:" + delayTimer
+                           ^^^^^^^^^^
+2020.05.13 17:27:38 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:67:28: stale bloop error: not found: value soundTimer
+        sound = "SOUND:" + soundTimer
+                           ^^^^^^^^^^
+2020.05.13 17:27:49 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:27:49 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 17:27:49 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:27:49 INFO  time: compiled chip-8-emulator in 0.34s
+2020.05.13 17:28:10 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:28:10 INFO  time: compiled chip-8-emulator in 0.44s
+2020.05.13 17:28:10 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:28:10 INFO  time: compiled chip-8-emulator in 0.42s
+2020.05.13 17:28:38 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:28:38 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 17:28:54 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:28:54 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 17:28:54 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:28:54 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 17:31:05 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:31:05 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 17:31:54 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:31:54 INFO  time: compiled chip-8-emulator in 0.37s
+2020.05.13 17:32:05 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:32:05 INFO  time: compiled chip-8-emulator in 0.39s
+2020.05.13 17:32:05 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:32:05 INFO  time: compiled chip-8-emulator in 0.32s
+2020.05.13 17:32:13 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:32:13 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.13 17:32:13 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:32:13 INFO  time: compiled chip-8-emulator in 0.31s
+2020.05.13 17:32:15 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:32:15 INFO  time: compiled chip-8-emulator in 0.4s
+2020.05.13 17:32:15 INFO  compiling chip-8-emulator (7 scala sources)
+2020.05.13 17:32:15 INFO  time: compiled chip-8-emulator in 0.45s
+2020.05.13 17:32:28 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:32:28 INFO  time: compiled chip-8-emulator in 0.36s
+2020.05.13 17:32:28 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:32:28 INFO  time: compiled chip-8-emulator in 0.29s
+May 13, 2020 5:37:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1887
+2020.05.13 17:38:05 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:38:05 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.13 17:45:53 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:45:53 INFO  time: compiled chip-8-emulator in 0.27s
+2020.05.13 17:46:08 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:66:28: stale bloop error: not found: value delayTimer
+        delay = "DELAY:" + delayTimer
+                           ^^^^^^^^^^
+2020.05.13 17:46:08 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:67:28: stale bloop error: not found: value soundTimer
+        sound = "SOUND:" + soundTimer
+                           ^^^^^^^^^^
+2020.05.13 17:46:08 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:66:28: stale bloop error: not found: value delayTimer
+        delay = "DELAY:" + delayTimer
+                           ^^^^^^^^^^
+2020.05.13 17:46:08 INFO  /Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala:67:28: stale bloop error: not found: value soundTimer
+        sound = "SOUND:" + soundTimer
+                           ^^^^^^^^^^
+May 13, 2020 5:46:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2077
+2020.05.13 17:46:24 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:46:24 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.13 17:47:29 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:47:29 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 17:48:32 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:48:32 INFO  time: compiled chip-8-emulator in 0.27s
+2020.05.13 17:50:15 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:50:15 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.13 17:50:47 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:50:47 INFO  time: compiled chip-8-emulator in 0.26s
+May 13, 2020 5:53:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2415
+2020.05.13 17:53:41 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:53:41 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.13 17:54:08 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:54:08 INFO  time: compiled chip-8-emulator in 0.27s
+2020.05.13 17:54:50 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:54:50 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 17:55:08 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:55:08 INFO  time: compiled chip-8-emulator in 0.23s
+May 13, 2020 5:55:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2683
+2020.05.13 17:55:12 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:55:12 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 17:55:12 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:55:12 INFO  time: compiled chip-8-emulator in 0.22s
+2020.05.13 17:56:05 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:05 INFO  time: compiled chip-8-emulator in 0.22s
+2020.05.13 17:56:09 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:09 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 17:56:09 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:09 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 17:56:19 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:19 INFO  time: compiled chip-8-emulator in 0.35s
+2020.05.13 17:56:19 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:19 INFO  time: compiled chip-8-emulator in 0.34s
+2020.05.13 17:56:28 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:28 INFO  time: compiled chip-8-emulator in 0.31s
+2020.05.13 17:56:28 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:28 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 17:56:39 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:39 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 17:56:39 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:56:39 INFO  time: compiled chip-8-emulator in 0.24s
+May 13, 2020 5:56:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.05.13 17:57:46 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:57:46 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 17:58:07 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:58:07 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 17:58:19 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:58:19 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.13 17:58:19 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:58:19 INFO  time: compiled chip-8-emulator in 0.25s
+May 13, 2020 5:58:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3260
+2020.05.13 17:58:35 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:58:35 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 17:58:35 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:58:35 INFO  time: compiled chip-8-emulator in 0.31s
+2020.05.13 17:58:57 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:58:57 INFO  time: compiled chip-8-emulator in 0.22s
+2020.05.13 17:59:29 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 17:59:29 INFO  time: compiled chip-8-emulator in 0.33s
+2020.05.13 18:00:13 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:00:13 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.13 18:01:27 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:01:27 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.13 18:01:53 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:01:53 INFO  time: compiled chip-8-emulator in 0.27s
+May 13, 2020 6:03:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3530
+2020.05.13 18:03:52 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:03:52 INFO  time: compiled chip-8-emulator in 0.19s
+2020.05.13 18:03:57 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:03:57 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 18:03:57 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:03:57 INFO  time: compiled chip-8-emulator in 0.3s
+May 13, 2020 6:04:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3587
+2020.05.13 18:04:19 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:04:19 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 18:04:29 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:04:29 INFO  time: compiled chip-8-emulator in 0.29s
+2020.05.13 18:04:29 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:04:29 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.13 18:04:36 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:04:36 INFO  time: compiled chip-8-emulator in 0.33s
+2020.05.13 18:04:36 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:04:36 INFO  time: compiled chip-8-emulator in 0.19s
+May 13, 2020 6:04:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3719
+2020.05.13 18:05:30 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:05:30 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.13 18:06:00 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:06:00 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.13 18:06:06 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:06:06 INFO  time: compiled chip-8-emulator in 0.22s
+2020.05.13 18:06:06 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:06:06 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.13 18:06:15 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:06:15 INFO  time: compiled chip-8-emulator in 0.22s
+2020.05.13 18:06:15 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:06:15 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 18:06:17 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 18:06:17 INFO  time: compiled chip-8-emulator in 0.31s
+2020.05.13 19:02:16 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:02:16 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.13 19:02:46 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:02:46 INFO  time: compiled chip-8-emulator in 0.19s
+2020.05.13 19:02:57 ERROR code navigation does not work for the file '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala' because the SemanticDB file '/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator/bloop-bsp-clients-classes/classes-Metals-8G9c0V88Q7S-lOVUjiIwYw==/META-INF/semanticdb/src/main/scala/emulator/chip8/Chip8.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.05.13 19:02:58 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:02:58 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 19:02:58 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:02:58 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 19:03:30 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:03:30 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 19:03:39 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:03:39 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 19:03:39 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:03:39 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 19:04:36 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:04:36 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 19:04:41 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:04:41 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.13 19:04:41 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:04:41 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.13 19:06:19 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:06:19 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 19:06:31 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:06:31 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 19:06:31 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:06:31 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.13 19:06:39 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.13 19:06:42 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.13 19:06:42 INFO  time: compiled chip-8-emulator in 4.43s
+2020.05.13 19:07:24 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:07:25 INFO  time: compiled chip-8-emulator in 1.27s
+2020.05.13 19:08:19 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:08:20 INFO  time: compiled chip-8-emulator in 1.04s
+2020.05.13 19:11:01 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:11:02 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.13 19:11:02 INFO  time: compiled chip-8-emulator in 1.18s
+2020.05.13 19:11:33 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:11:34 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.13 19:11:34 INFO  time: compiled chip-8-emulator in 1.34s
+2020.05.13 19:12:21 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:12:21 INFO  time: compiled chip-8-emulator in 0.9s
+2020.05.13 19:14:05 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:14:05 INFO  time: compiled chip-8-emulator in 0.7s
+2020.05.13 19:14:53 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:14:53 INFO  time: compiled chip-8-emulator in 0.99s
+May 13, 2020 7:18:26 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 13, 2020 7:18:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+java.lang.ClassCastException: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:1972)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:271)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:332)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:332)
+	at scala.Option.filter(Option.scala:289)
+	at scala.Option$WithFilter.map(Option.scala:329)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:271)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+May 13, 2020 7:18:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4827
+May 13, 2020 7:18:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4828
+2020.05.13 19:19:18 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:19:18 INFO  time: compiled chip-8-emulator in 0.13s
+2020.05.13 19:19:34 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:19:35 INFO  time: compiled chip-8-emulator in 1.14s
+May 13, 2020 7:19:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4935
+2020.05.13 19:22:04 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:22:05 INFO  time: compiled chip-8-emulator in 1.1s
+2020.05.13 19:22:17 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:22:17 INFO  time: compiled chip-8-emulator in 0.93s
+2020.05.13 19:23:08 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:23:10 INFO  time: compiled chip-8-emulator in 1.23s
+2020.05.13 19:26:04 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:26:04 INFO  time: compiled chip-8-emulator in 0.16s
+2020.05.13 19:28:42 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 19:28:42 INFO  time: compiled chip-8-emulator in 0.19s
+May 13, 2020 7:28:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5554
+2020.05.13 19:49:53 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 19:49:55 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.13 19:49:55 INFO  time: compiled chip-8-emulator in 1.35s
+2020.05.13 19:49:57 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:49:58 INFO  time: compiled chip-8-emulator in 1.63s
+2020.05.13 19:50:14 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:50:16 INFO  time: compiled chip-8-emulator in 1.27s
+May 13, 2020 7:51:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5804
+2020.05.13 19:53:37 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 19:53:39 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.13 19:53:39 INFO  time: compiled chip-8-emulator in 1.68s
+2020.05.13 19:54:16 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:54:16 INFO  time: compiled chip-8-emulator in 0.15s
+2020.05.13 19:54:22 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:54:22 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.13 19:54:22 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:54:22 INFO  time: compiled chip-8-emulator in 0.13s
+2020.05.13 19:54:49 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:54:49 INFO  time: compiled chip-8-emulator in 0.13s
+May 13, 2020 7:55:01 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 13, 2020 7:55:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+2020.05.13 19:55:18 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 19:55:19 INFO  time: compiled chip-8-emulator in 1.01s
+2020.05.13 19:55:19 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 19:55:20 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.13 19:55:20 INFO  time: compiled chip-8-emulator in 1.05s
+2020.05.13 19:55:20 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 19:55:22 INFO  time: compiled chip-8-emulator in 0.34s
+May 13, 2020 8:00:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6186
+2020.05.13 20:02:34 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 20:02:35 INFO  time: compiled chip-8-emulator in 1.59s
+2020.05.13 20:09:42 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:09:42 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 20:10:59 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:10:59 INFO  time: compiled chip-8-emulator in 0.15s
+2020.05.13 20:11:25 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:11:25 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 20:11:42 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:11:42 INFO  time: compiled chip-8-emulator in 0.15s
+May 13, 2020 8:11:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6716
+2020.05.13 20:11:49 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:11:49 INFO  time: compiled chip-8-emulator in 0.99s
+2020.05.13 20:23:30 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:23:30 INFO  time: compiled chip-8-emulator in 76ms
+May 13, 2020 8:23:40 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 13, 2020 8:23:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+2020.05.13 20:24:00 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:24:00 INFO  time: compiled chip-8-emulator in 0.13s
+May 13, 2020 8:31:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7147
+2020.05.13 20:33:28 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:33:28 INFO  time: compiled chip-8-emulator in 0.84s
+2020.05.13 20:43:45 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:43:45 INFO  time: compiled chip-8-emulator in 0.16s
+2020.05.13 20:47:07 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:47:07 INFO  time: compiled chip-8-emulator in 0.14s
+2020.05.13 20:47:21 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:47:21 INFO  time: compiled chip-8-emulator in 0.82s
+2020.05.13 20:47:21 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 20:47:22 INFO  time: compiled chip-8-emulator in 0.25s
+2020.05.13 20:47:22 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:47:22 INFO  time: compiled chip-8-emulator in 0.31s
+2020.05.13 20:47:22 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 20:47:22 INFO  time: compiled chip-8-emulator in 0.22s
+2020.05.13 20:47:38 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 20:47:38 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 20:47:52 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:47:53 INFO  time: compiled chip-8-emulator in 1.11s
+2020.05.13 20:47:53 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 20:47:53 INFO  time: compiled chip-8-emulator in 0.28s
+2020.05.13 20:47:53 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:47:53 INFO  time: compiled chip-8-emulator in 0.4s
+2020.05.13 20:47:53 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 20:47:53 INFO  time: compiled chip-8-emulator in 0.26s
+2020.05.13 20:48:04 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:48:04 INFO  time: compiled chip-8-emulator in 0.15s
+2020.05.13 20:48:04 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:48:04 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.13 20:50:21 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 20:50:21 INFO  time: compiled chip-8-emulator in 0.14s
+2020.05.13 21:33:51 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 21:33:51 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.13 21:34:04 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 21:34:04 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.13 21:34:04 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 21:34:04 INFO  time: compiled chip-8-emulator in 0.13s
+2020.05.13 21:34:28 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 21:34:28 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 21:34:35 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 21:34:35 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 21:34:35 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 21:34:35 INFO  time: compiled chip-8-emulator in 0.24s
+2020.05.13 21:35:04 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 21:35:04 INFO  time: compiled chip-8-emulator in 0.3s
+2020.05.13 21:35:43 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 21:35:43 INFO  time: compiled chip-8-emulator in 0.16s
+2020.05.13 21:36:11 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 21:36:11 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 21:55:37 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 21:55:37 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 21:56:09 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 21:56:09 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 21:56:44 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 21:56:44 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 21:57:07 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 21:57:07 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 21:58:22 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 21:58:22 INFO  time: compiled chip-8-emulator in 0.16s
+2020.05.13 22:00:34 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 22:00:34 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 22:00:43 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 22:00:43 INFO  time: compiled chip-8-emulator in 0.19s
+2020.05.13 22:00:43 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 22:00:43 INFO  time: compiled chip-8-emulator in 0.16s
+2020.05.13 22:00:59 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 22:00:59 INFO  time: compiled chip-8-emulator in 0.16s
+2020.05.13 22:00:59 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 22:00:59 INFO  time: compiled chip-8-emulator in 0.13s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala in Array[Boolean]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Keyboard.scala, 221, 221, 235)
+2020.05.13 22:01:22 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 22:01:23 INFO  time: compiled chip-8-emulator in 1.25s
+2020.05.13 22:01:23 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 22:01:23 INFO  time: compiled chip-8-emulator in 47ms
+2020.05.13 22:01:37 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 22:01:37 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.13 22:01:37 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 22:01:37 INFO  time: compiled chip-8-emulator in 0.22s
+May 13, 2020 10:01:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8806
+May 13, 2020 10:01:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8822
+2020.05.13 22:01:47 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 22:01:47 INFO  time: compiled chip-8-emulator in 0.23s
+2020.05.13 22:01:47 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 22:01:47 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 22:02:01 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 22:02:01 INFO  time: compiled chip-8-emulator in 0.21s
+2020.05.13 22:02:01 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 22:02:01 INFO  time: compiled chip-8-emulator in 0.17s
+2020.05.13 22:02:36 INFO  compiling chip-8-emulator (3 scala sources)
+2020.05.13 22:02:37 INFO  time: compiled chip-8-emulator in 1.24s
+2020.05.13 22:02:55 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 22:02:55 INFO  time: compiled chip-8-emulator in 0.19s
+2020.05.13 22:02:55 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 22:02:55 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.13 22:03:17 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 22:03:17 INFO  time: compiled chip-8-emulator in 0.87s
+2020.05.13 22:03:17 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 22:03:17 INFO  time: compiled chip-8-emulator in 51ms
+2020.05.13 22:03:27 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 22:03:28 INFO  time: compiled chip-8-emulator in 1.08s
+May 13, 2020 10:15:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9123
+2020.05.13 22:16:03 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.13 22:16:05 INFO  time: compiled chip-8-emulator in 2.24s
+May 13, 2020 10:16:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9174
+2020.05.13 22:16:11 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 22:16:11 INFO  time: compiled chip-8-emulator in 0.96s
+2020.05.13 22:16:51 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 22:16:51 INFO  time: compiled chip-8-emulator in 0.79s
+2020.05.13 22:23:03 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.13 22:23:03 INFO  time: compiled chip-8-emulator in 0.76s
