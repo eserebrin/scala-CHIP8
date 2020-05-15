@@ -182,7 +182,10 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 			val op = opcode & 0x00FF
 			op match {
 				case 0x07 => V(x) = clock.delayTimer
-				case 0x0A => V(x) = keyboard.getKey()
+				case 0x0A => {
+					V(x) = keyboard.getKey()
+					if(V(x) == ' ') return
+				}
 				case 0x15 => clock.delayTimer = V(x)
 				case 0x18 => clock.soundTimer = V(x)
 				case 0x1E => {

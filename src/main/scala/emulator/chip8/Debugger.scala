@@ -71,4 +71,5 @@ class Debugger(cpu: CPU, memory: Array[Char], keyboard: Keyboard, clock: Clock) 
         // println
     }
 
+    def stepOnce(): Unit = cpu.processInstruction(cpu.fetchOpcode(this))
 }

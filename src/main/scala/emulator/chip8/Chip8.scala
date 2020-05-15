@@ -13,18 +13,18 @@ object Chip8 extends JFXApp {
 			content = canvas
 			val g = canvas.graphicsContext2D
 
-			private val memory = (new Memory("Keypad Test.ch8")).create
-			private val keyboard = new Keyboard(canvas)
-			private val clock = new Clock
-			private val cpu = new CPU(memory, keyboard, clock)
-			private val debugger = new Debugger(cpu, memory, keyboard, clock)
+			val memory = (new Memory("Pong.ch8")).create()
+			val keyboard = new Keyboard
+			val clock = new Clock
+			val cpu = new CPU(memory, keyboard, clock)
+			val debugger = new Debugger(cpu, memory, keyboard, clock)
 
-			keyboard.processInput()
+			keyboard.defineInputFunction(canvas, debugger)
 
 			var oldT = 0L
 			val loop = AnimationTimer(t => {
 				if(t - oldT > 1e9 / 60) {
-					if(!debugger.enabled && !keyboard.waitingForInput)
+					if(!debugger.enabled)
 						cpu.processInstruction(cpu.fetchOpcode(debugger))
 					cpu.processGraphics(g)
 					keyboard.update()

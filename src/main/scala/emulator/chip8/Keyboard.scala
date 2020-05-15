@@ -6,7 +6,7 @@ import scalafx.scene.input.KeyEvent
 import scalafx.scene.input.KeyCode
 import scala.collection.mutable
 
-class Keyboard(canvas: Canvas) {
+class Keyboard {
 
     var keys: Array[Boolean] = Array.fill(16)(false)
 	var keysPressed = mutable.Set[KeyCode]()
@@ -36,9 +36,9 @@ class Keyboard(canvas: Canvas) {
 		ret
     }
 
-	def processInput(): Unit = {
+	def defineInputFunction(canvas: Canvas, debugger: Debugger): Unit = {
 		canvas.onKeyPressed = (e: KeyEvent) => {
-			// if(e.code == KeyCode.Space) cpu.stepOnce
+			if(e.code == KeyCode.Space) debugger.stepOnce
 			keysPressed += e.code
 		}
 		canvas.onKeyReleased = (e: KeyEvent) => {
@@ -47,13 +47,8 @@ class Keyboard(canvas: Canvas) {
 	}
 
 	def getKey(): Char = { // for use in FX0A
-		while(!keys.contains(true)) {
-			waitingForInput = true
-			processInput()
-			update()
-		}
-		waitingForInput = false
-		keys.indexOf(true).toChar
+		if(keys.contains(true)) keys.indexOf(true).toChar
+		else return ' '
 	}
 
 	def update(): Unit = keys = getKeys()
