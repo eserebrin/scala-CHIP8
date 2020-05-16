@@ -2,13 +2,13 @@
     "version": "1.4.0",
     "project": {
         "name": "chip-8-emulator",
-        "directory": "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator",
-        "workspaceDir": "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator",
+        "directory": "/Users/ezraserebrin/Documents/Code/chip-8-emulator",
+        "workspaceDir": "/Users/ezraserebrin/Documents/Code/chip-8-emulator",
         "sources": [
-            "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala-2.12",
-            "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/scala",
-            "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/java",
-            "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/target/scala-2.12/src_managed/main"
+            "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala-2.12",
+            "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala",
+            "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/java",
+            "/Users/ezraserebrin/Documents/Code/chip-8-emulator/target/scala-2.12/src_managed/main"
         ],
         "dependencies": [
             
@@ -19,11 +19,11 @@
             "/Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar",
             "/Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
         ],
-        "out": "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator",
-        "classesDir": "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/.bloop/chip-8-emulator/scala-2.12/classes",
+        "out": "/Users/ezraserebrin/Documents/Code/chip-8-emulator/.bloop/chip-8-emulator",
+        "classesDir": "/Users/ezraserebrin/Documents/Code/chip-8-emulator/.bloop/chip-8-emulator/scala-2.12/classes",
         "resources": [
-            "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/src/main/resources",
-            "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/target/scala-2.12/resource_managed/main"
+            "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/resources",
+            "/Users/ezraserebrin/Documents/Code/chip-8-emulator/target/scala-2.12/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -40,7 +40,7 @@
                 "/Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/jansi.jar",
                 "/Users/ezraserebrin/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar"
             ],
-            "analysis": "/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "analysis": "/Users/ezraserebrin/Documents/Code/chip-8-emulator/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -99,7 +99,7 @@
             "config": {
                 "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre",
                 "options": [
-                    "-Duser.dir=/Users/ezraserebrin/Documents/Personal Code/chip-8-emulator"
+                    "-Duser.dir=/Users/ezraserebrin/Documents/Code/chip-8-emulator"
                 ]
             },
             "mainClass": [

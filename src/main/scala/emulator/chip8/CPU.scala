@@ -114,7 +114,7 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 				case 0x5 => {
 					if(V(x) - V(y) < 0x00) {
 						V(0xF) = 0
-						V(x) - V(y) + 0xFF
+						(V(x) - V(y)) & 0xFF
 					}
 					else {
 						V(0xF) = 1
@@ -123,12 +123,12 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 				}
 				case 0x6 => {
 					V(0xF) = V(x) & 0x01
-					V(x) >> 1
+					V(x) >>> 1
 				}
 				case 0x7 => {
 					if(V(y) - V(x) < 0x00) {
 						V(0xF) = 0
-						V(y) - V(x) + 0xFF
+						(V(y) - V(x)) & 0xFF
 					}
 					else {
 						V(0xF) = 1
@@ -150,7 +150,7 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 		case rand if (opcode >= 0xC000 & opcode <= 0xCFFF) => {
 			val x = (opcode & 0x0F00) >>> 8
 			val n = opcode & 0x00FF
-			V(x) & Random.nextInt(255)
+			V(x) = Random.nextInt(255) & n
 		}
 
 		case dispSpr if (opcode >= 0xD000 && opcode <= 0xDFFF) => {

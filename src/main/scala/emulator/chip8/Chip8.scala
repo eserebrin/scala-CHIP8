@@ -23,14 +23,12 @@ object Chip8 extends JFXApp {
 
 			var oldT = 0L
 			val loop = AnimationTimer(t => {
-				if(t - oldT > 1e9 / 60) {
-					if(!debugger.enabled)
-						cpu.processInstruction(cpu.fetchOpcode(debugger))
-					cpu.processGraphics(g)
-					keyboard.update()
-					debugger.display(g)
-					clock.processTimers()
-				}
+				if(!debugger.enabled)
+					cpu.processInstruction(cpu.fetchOpcode(debugger))
+				cpu.processGraphics(g)
+				keyboard.update()
+				debugger.display(g)
+				if(t - oldT > 1e9 / 60) clock.processTimers()
 				oldT = t
 			})
 

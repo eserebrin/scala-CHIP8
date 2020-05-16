@@ -7076,3 +7076,133 @@ WARNING: Unmatched cancel notification for request id 3655
 2020.05.14 21:45:18 INFO  time: compiled chip-8-emulator in 0.68s
 2020.05.14 21:45:50 INFO  compiling chip-8-emulator (1 scala source)
 2020.05.14 21:45:50 INFO  time: compiled chip-8-emulator in 0.89s
+something's wrong: no file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala in Array[Char]RangePosition(file:///Users/ezraserebrin/Documents/Personal%20Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala, 193, 193, 204)
+2020.05.14 23:01:42 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+2020.05.15 11:50:06 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Code/chip-8-emulator'
+2020.05.15 11:50:06 INFO  time: initialize in 0.43s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher4761510485503421608/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/ezraserebrin/Documents/Code/chip-8-emulator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Code/chip-8-emulator/.bloop/chip-8-emulator.json'
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Code/chip-8-emulator/.bloop/chip-8-emulator-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'chip-8-emulator-test', 'chip-8-emulator'
+[0m[32m[D][0m Missing analysis file for project 'chip-8-emulator-test'
+[0m[32m[D][0m Missing analysis file for project 'chip-8-emulator'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher4761510485503421608/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher4761510485503421608/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.15 11:50:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.15 11:50:07 INFO  time: connected to build server in 0.43s
+2020.05.15 11:50:07 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.05.15 11:50:09 INFO  time: indexed workspace in 1.6s
+2020.05.15 11:50:13 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/metals1723783428518704526/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.05.15 11:50:20 INFO  [info] Loading settings for project chip-8-emulator-build from metals.sbt ...
+2020.05.15 11:50:20 INFO  [info] Loading project definition from /Users/ezraserebrin/Documents/Code/chip-8-emulator/project
+2020.05.15 11:50:24 INFO  [info] Loading settings for project chip-8-emulator from build.sbt ...
+2020.05.15 11:50:24 INFO  [info] Set current project to Chip8Emu (in build file:/Users/ezraserebrin/Documents/Code/chip-8-emulator/)
+2020.05.15 11:50:25 INFO  [success] Generated .bloop/chip-8-emulator-test.json
+2020.05.15 11:50:25 INFO  [success] Generated .bloop/chip-8-emulator.json
+2020.05.15 11:50:25 INFO  [success] Total time: 0 s, completed May 15, 2020 11:50:26 AM
+2020.05.15 11:50:25 INFO  build tool exit: 0
+2020.05.15 11:50:26 INFO  time: ran 'sbt bloopInstall' in 12s
+2020.05.15 11:50:26 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6359308393584579757/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.05.15 11:50:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.15 11:50:26 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.05.15 11:50:27 INFO  time: indexed workspace in 0.86s
+2020.05.15 11:50:49 INFO  compiling chip-8-emulator (6 scala sources)
+2020.05.15 11:50:53 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.15 11:50:53 INFO  time: compiled chip-8-emulator in 3.3s
+2020.05.15 11:51:04 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 11:51:04 INFO  time: compiled chip-8-emulator in 0.85s
+2020.05.15 19:49:32 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 19:49:32 INFO  time: compiled chip-8-emulator in 0.64s
+2020.05.15 19:55:51 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 19:55:51 INFO  time: compiled chip-8-emulator in 0.53s
+2020.05.15 19:56:11 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 19:56:11 INFO  time: compiled chip-8-emulator in 0.2s
+2020.05.15 19:56:28 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 19:56:28 INFO  time: compiled chip-8-emulator in 0.83s
+2020.05.15 20:01:11 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:01:11 INFO  time: compiled chip-8-emulator in 79ms
+2020.05.15 20:01:22 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:01:22 INFO  time: compiled chip-8-emulator in 0.62s
+2020.05.15 20:10:22 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:10:22 INFO  time: compiled chip-8-emulator in 0.82s
+2020.05.15 20:10:22 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:10:22 INFO  time: compiled chip-8-emulator in 58ms
+2020.05.15 20:10:33 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.15 20:10:33 INFO  time: compiled chip-8-emulator in 0.9s
+2020.05.15 20:11:33 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:11:33 INFO  time: compiled chip-8-emulator in 0.61s
+2020.05.15 20:11:42 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:11:42 INFO  time: compiled chip-8-emulator in 0.82s
+2020.05.15 20:12:39 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:12:39 INFO  time: compiled chip-8-emulator in 0.7s
+2020.05.15 20:13:52 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:13:52 INFO  time: compiled chip-8-emulator in 0.54s
+2020.05.15 20:13:58 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:13:58 INFO  time: compiled chip-8-emulator in 75ms
+2020.05.15 20:13:58 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:13:58 INFO  time: compiled chip-8-emulator in 38ms
+2020.05.15 20:14:05 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:14:05 INFO  time: compiled chip-8-emulator in 0.74s
+2020.05.15 20:14:05 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:14:05 INFO  time: compiled chip-8-emulator in 61ms
+2020.05.15 20:14:05 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:14:06 INFO  time: compiled chip-8-emulator in 0.18s
+2020.05.15 20:14:06 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:14:06 INFO  time: compiled chip-8-emulator in 57ms
+2020.05.15 20:14:09 INFO  compiling chip-8-emulator (2 scala sources)
+2020.05.15 20:14:11 INFO  time: compiled chip-8-emulator in 1.17s
+2020.05.15 20:15:19 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:15:20 INFO  time: compiled chip-8-emulator in 1.16s
+2020.05.15 20:19:36 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:19:37 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.15 20:19:37 INFO  time: compiled chip-8-emulator in 1.71s
+2020.05.15 20:19:51 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:19:52 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.15 20:19:52 INFO  time: compiled chip-8-emulator in 1.12s
+2020.05.15 20:21:29 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:21:31 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.15 20:21:31 INFO  time: compiled chip-8-emulator in 2.23s
+2020.05.15 20:21:41 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:21:43 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.15 20:21:43 INFO  time: compiled chip-8-emulator in 1.27s
+2020.05.15 20:26:48 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:26:49 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.15 20:26:49 INFO  time: compiled chip-8-emulator in 1.05s
+2020.05.15 20:30:25 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:30:25 INFO  time: compiled chip-8-emulator in 0.68s
+2020.05.15 20:36:19 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:36:19 INFO  time: compiled chip-8-emulator in 0.94s
+2020.05.15 20:38:49 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:38:51 WARN  there were three feature warnings; re-run with -feature for details
+2020.05.15 20:38:51 INFO  time: compiled chip-8-emulator in 1.07s
+2020.05.15 20:39:30 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:39:30 INFO  time: compiled chip-8-emulator in 0.92s
+2020.05.15 20:40:45 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:40:45 INFO  time: compiled chip-8-emulator in 0.91s
+2020.05.15 20:51:49 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:51:49 INFO  time: compiled chip-8-emulator in 0.78s
+2020.05.15 20:52:03 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:52:03 INFO  time: compiled chip-8-emulator in 0.96s
+2020.05.15 20:52:13 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:52:14 INFO  time: compiled chip-8-emulator in 1.26s
+2020.05.15 20:54:29 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:54:29 INFO  time: compiled chip-8-emulator in 0.99s
+2020.05.15 20:57:46 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:57:46 INFO  time: compiled chip-8-emulator in 0.7s
+2020.05.15 20:58:38 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:58:38 INFO  time: compiled chip-8-emulator in 0.67s
+2020.05.15 20:59:11 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 20:59:11 INFO  time: compiled chip-8-emulator in 0.76s
+2020.05.15 21:09:40 INFO  compiling chip-8-emulator (1 scala source)
+2020.05.15 21:09:40 INFO  time: compiled chip-8-emulator in 0.96s

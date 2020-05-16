@@ -43,3 +43,6 @@ run
 clear
 run
 exit
+run
+run -Djavafx.animation.fullspeed=true
+exit
