@@ -13,7 +13,7 @@ object Chip8 extends JFXApp {
 			content = canvas
 			val g = canvas.graphicsContext2D
 
-			val memory = (new Memory("Pong.ch8")).create()
+			val memory = (new Memory("Tetris.ch8")).create()
 			val keyboard = new Keyboard
 			val clock = new Clock
 			val cpu = new CPU(memory, keyboard, clock)

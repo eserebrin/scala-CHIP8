@@ -143,6 +143,12 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 			}
 		}
 
+		case skipXnY if (opcode >= 0x9000 && opcode <= 0x9FFF) => {
+			val x = (opcode & 0x0F00) >>> 8
+			val y = (opcode & 0x00F0) >>> 4
+			if(V(x) != V(y)) PC += 2
+		}
+
 		case setI if (opcode >= 0xA000 && opcode <= 0xAFFF) => I = opcode & 0x0FFF
 
 		case jmpV0 if (opcode >= 0xB000 & opcode <= 0xBFFF) => PC = (opcode & 0x0FFF) + V(0)
