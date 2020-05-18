@@ -48,3 +48,21 @@ run -Djavafx.animation.fullspeed=true
 exit
 run
 exit
+run
+run -feature
+run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala"
+run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala"
+run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala"
+run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala"
+run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala"
+run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala"
+run -Djavafx.animation.fullspeed=true
+run --Djavafx.animation.fullspeed=true
+run -Dscalafx.animation.fullspeed=true
+run -Djavafx.animation.fullspeed=true
+run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala"
+run -Dscalafx.chip8.fullspeed=true
+run -Dscalafx.animation.fullspeed=true
+run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala"
+run -Dscalafx.animation.fullspeed=true
+exit

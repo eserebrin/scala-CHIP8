@@ -16,6 +16,8 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 		else true
 	}
 
+	var draw = false
+
     var gfx = Array.fill(64*32)(false)
 	var V = Array.fill[Char](16)(0x00)
 	var I: Char = 0x000
@@ -47,6 +49,7 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 			g.setFill(Color.White)
 			if(gfx(i)) g.fillRect(x*12, y*12, 12, 12)
 		}
+		draw = false
 	}
 
 	def fetchOpcode(debugger: Debugger): Char = {
@@ -63,7 +66,10 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 
 	def processInstruction(opcode: Char): Unit = opcode match {
 
-		case 0x00E0 => gfx = Array.fill(64*32)(false) // clear screen
+		case 0x00E0 => {
+			draw = true
+			gfx = Array.fill(64*32)(false) // clear screen
+		}
 
 		case 0x00EE => PC = Stack.pop() // return
 
@@ -156,21 +162,22 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 		case rand if (opcode >= 0xC000 & opcode <= 0xCFFF) => {
 			val x = (opcode & 0x0F00) >>> 8
 			val n = opcode & 0x00FF
-			V(x) = Random.nextInt(255) & n
+			V(x) = Random.nextInt(256) & n
 		}
 
 		case dispSpr if (opcode >= 0xD000 && opcode <= 0xDFFF) => {
+			draw = true
 			val x = V((opcode & 0x0F00) >>> 8)
 			val y = V((opcode & 0x00F0) >>> 4)
 			val n = opcode & 0x000F
 			val oldI = I
+			V(0xF) = 0
 			for (h <- 0 until n; w <- 0 until 8) {
 				val loc = (y + h) * 64 + x + w // causing problems ?
 				val spr = intToBool(memory(I) & (0x80 >>> w))
 				val npx = spr ^ gfx(loc)
+				if(gfx(loc) == true && npx == false) V(0xF) = 1
 				gfx(loc) = npx
-				if (spr != npx) V(0xF) = 1
-				else V(0xF) = 0
 				if(w == 7) I += 1
 			}
 			I = oldI
