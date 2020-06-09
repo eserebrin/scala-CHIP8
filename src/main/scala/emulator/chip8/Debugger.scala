@@ -4,7 +4,7 @@ import scalafx.scene.canvas.GraphicsContext
 import scalafx.scene.paint.Color
 import scalafx.scene.text.Font
 
-//TODO: refactor this crap
+//TODO: maybe refactor this one day?
 class Debugger(cpu: CPU, memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 
     var enabled = false
@@ -67,6 +67,8 @@ class Debugger(cpu: CPU, memory: Array[Char], keyboard: Keyboard, clock: Clock) 
         stkP = "SP: " + formatHex16(cpu.Stack.peek)
         delay = "DELAY:" + clock.delayTimer
         sound = "SOUND:" + clock.soundTimer
+        
+        // NOTE: Uncomment to see memory around the Index Register:
         // for(i <- cpu.I.toInt until cpu.I+16) print(formatHex8(memory(i)) + " ")
         // println
     }

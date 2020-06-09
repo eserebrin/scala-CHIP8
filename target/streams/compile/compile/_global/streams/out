@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:51:14: not found: value Color[0m
-[0m[[0m[31merror[0m] [0m[0m			g.setFill(Color.Red)[0m
-[0m[[0m[31merror[0m] [0m[0m			          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:17:23: Int does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m			println(memory.size())[0m
+[0m[[0m[31merror[0m] [0m[0m			                   ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
