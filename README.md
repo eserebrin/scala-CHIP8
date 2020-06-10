@@ -8,7 +8,7 @@ There is one known issue, having something to do with rendering or collision det
 
 ### Running the Program
 - If you'd like to test it out, you will need [Scala Build Tool](https://www.scala-sbt.org/) installed.
-- use ```sbt run <rom> <debug>``` to run the emulator.
+- use ```sbt run <rom> debug``` to run the emulator.
   - ```rom``` should be a file in the project directory.
   - ```debug``` is *optional*. If included, will start the emulator in debug mode.
 
