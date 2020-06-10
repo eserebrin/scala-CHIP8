@@ -65,3 +65,16 @@ run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/
 run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala"
 run "/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala"
 exit
+run
+run "/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala"
+run "/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala"
+run heoll
+run 11oo
+run Tetris.ch8 debug
+run Tetris.ch8
+run "/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala"
+run Tetris.ch8
+run Tetris.ch8 debug
+run
+run Breakout.ch8
+exit

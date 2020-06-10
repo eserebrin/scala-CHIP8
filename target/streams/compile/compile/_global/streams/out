@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ezraserebrin/Documents/Code/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:17:23: Int does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m			println(memory.size())[0m
-[0m[[0m[31merror[0m] [0m[0m			                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala:16:39: not enough arguments for method toArray: (implicit evidence$1: scala.reflect.ClassTag[B])Array[B].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter evidence$1.[0m
+[0m[[0m[31merror[0m] [0m[0m			val params = parameters.raw.toArray() ++ Array("")[0m
+[0m[[0m[31merror[0m] [0m[0m			                                   ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

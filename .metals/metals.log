@@ -7773,3 +7773,134 @@ Jun 08, 2020 8:15:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 1581
 2020.06.08 20:17:39 INFO  compiling chip-8-emulator (1 scala source)
 2020.06.08 20:17:40 INFO  time: compiled chip-8-emulator in 1.19s
+2020.06.08 20:20:29 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+2020.06.08 20:26:57 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Code/chip-8-emulator'
+2020.06.08 20:26:58 INFO  time: initialize in 0.71s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6406604643140402459/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6406604643140402459/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher6406604643140402459/bsp.socket...
+2020.06.08 20:26:59 INFO  skipping build import with status 'Installed'
+2020.06.08 20:26:59 INFO  no build target: using presentation compiler with only scala-library
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.08 20:26:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.06.08 20:26:59 INFO  time: connected to build server in 0.37s
+2020.06.08 20:26:59 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.08 20:27:02 INFO  time: indexed workspace in 3.31s
+2020.06.08 20:27:29 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.06.09 12:54:37 INFO  started: Metals version 0.9.0 in workspace '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator'
+2020.06.09 12:54:37 INFO  time: initialize in 0.47s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2970154779801339512/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/.bloop/chip-8-emulator.json'
+[0m[32m[D][0m Loading project from '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/.bloop/chip-8-emulator-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'chip-8-emulator', 'chip-8-emulator-test'
+[0m[32m[D][0m Missing analysis file for project 'chip-8-emulator'
+[0m[32m[D][0m Missing analysis file for project 'chip-8-emulator-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2970154779801339512/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2s/8l87mq6s2gv0w85pmkk00hl80000gn/T/bsp-launcher2970154779801339512/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 12:54:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ezraserebrin/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.06.09 12:54:38 INFO  time: connected to build server in 0.51s
+2020.06.09 12:54:38 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 12:54:39 INFO  no build target: using presentation compiler with only scala-library
+2020.06.09 12:54:41 INFO  time: indexed workspace in 2.98s
+2020.06.09 12:54:41 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+2020.06.09 12:54:42 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+Jun 09, 2020 12:54:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2020.06.09 13:01:12 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+2020.06.09 13:01:51 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+Jun 09, 2020 1:01:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 433
+2020.06.09 13:02:00 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 13:02:49 WARN  code navigation does not work for the file '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala' because it doesn't belong to a build target.
+2020.06.09 13:02:49 WARN  code navigation does not work for the file '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala' because it doesn't belong to a build target.
+2020.06.09 13:02:49 WARN  code navigation does not work for the file '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala' because it doesn't belong to a build target.
+2020.06.09 13:02:50 WARN  code navigation does not work for the file '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala' because it doesn't belong to a build target.
+2020.06.09 13:03:12 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+2020.06.09 13:03:12 WARN  code navigation does not work for the file '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala' because it doesn't belong to a build target.
+Jun 09, 2020 1:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 604
+2020.06.09 13:03:23 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+2020.06.09 13:08:00 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+Jun 09, 2020 1:08:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 643
+2020.06.09 13:08:30 WARN  code navigation does not work for the file '/Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala' because it doesn't belong to a build target.
+2020.06.09 13:08:30 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+2020.06.09 17:44:26 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+2020.06.09 17:50:20 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala
+2020.06.09 17:50:26 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala
+Jun 09, 2020 6:01:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 783
+2020.06.09 18:02:37 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+2020.06.09 18:02:48 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/CPU.scala
+2020.06.09 18:08:50 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:13:38 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala
+Jun 09, 2020 6:13:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1038
+Jun 09, 2020 6:13:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1039
+2020.06.09 18:13:54 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala
+Jun 09, 2020 6:16:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1128
+2020.06.09 18:16:24 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+Jun 09, 2020 6:21:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1396
+Jun 09, 2020 6:21:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1422
+2020.06.09 18:21:35 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:21:44 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:22:01 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:23:04 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:25:44 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:25:47 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:28:23 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+Jun 09, 2020 6:32:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1656
+2020.06.09 18:32:46 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:33:44 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:36:13 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:37:14 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+Jun 09, 2020 6:38:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1859
+Jun 09, 2020 6:38:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1890
+2020.06.09 18:39:04 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:42:05 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:42:38 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:44:50 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:45:15 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:45:33 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:48:32 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:49:08 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:49:45 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:50:36 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:52:33 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:52:44 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:53:12 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:54:10 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:54:16 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala
+2020.06.09 18:54:31 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+Jun 09, 2020 6:55:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2924
+2020.06.09 18:55:45 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:57:52 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:58:14 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:59:04 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:59:38 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 18:59:52 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 19:00:21 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 19:01:10 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Chip8.scala
+2020.06.09 19:02:13 WARN  no build target for: /Users/ezraserebrin/Documents/Code/Archived/chip-8-emulator/src/main/scala/emulator/chip8/Debugger.scala

@@ -1,6 +1,7 @@
 package emulator.chip8
 
 import scalafx.application.JFXApp
+import scalafx.application.JFXApp.Parameters
 import scalafx.scene.Scene
 import scalafx.scene.canvas.Canvas
 import scalafx.animation.AnimationTimer
@@ -12,12 +13,17 @@ object Chip8 extends JFXApp {
 			val canvas = new Canvas(width.value, height.value)
 			content = canvas
 			val g = canvas.graphicsContext2D
+			val params = parameters.raw ++ Array("", "")
 
-			val memory = (new Memory("Pong.ch8")).create()
+			val cartridge = if(params(0) != "") params(0) else "Pong.ch8"
+			val memory = (new Memory(cartridge)).create()
+
 			val keyboard = new Keyboard
 			val clock = new Clock
 			val cpu = new CPU(memory, keyboard, clock)
+			
 			val debugger = new Debugger(cpu, memory, keyboard, clock)
+			debugger.enabled = if(params(1) == "debug") true else false
 
 			keyboard.defineInputFunction(canvas, debugger)
 

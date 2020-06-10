@@ -173,10 +173,10 @@ class CPU(memory: Array[Char], keyboard: Keyboard, clock: Clock) {
 			val oldI = I
 			V(0xF) = 0
 			for (h <- 0 until n; w <- 0 until 8) {
-				val loc = (y + h) * 64 + x + w // causing problems ?
+				val loc = (y + h) * 64 + x + w
 				val spr = intToBool(memory(I) & (0x80 >>> w))
 				val npx = spr ^ gfx(loc)
-				if(gfx(loc) == true && npx == false) V(0xF) = 1
+				if(gfx(loc) && !npx) V(0xF) = 1
 				gfx(loc) = npx
 				if(w == 7) I += 1
 			}
